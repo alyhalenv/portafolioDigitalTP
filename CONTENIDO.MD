@@ -7,7 +7,7 @@ Recopilar todas las actividades generadas en el transcurso y desarrollo del síl
 
 | Unidad | Estado | Enlace |
 | :--- | :---: | :--- |
-| **PRIMERA UNIDAD** | 📖 En curso | [Ver actividades](./Unidad1/) |
+| **PRIMERA UNIDAD** | 📖 En curso | [Ver actividades](./UNIDAD_ONE/) |
 | **SEGUNDA UNIDAD** | 🔒 Pendiente | [Ver actividades](#) |
 | **TERCERA UNIDAD** | 🔒 Pendiente | [Ver actividades](#) |
 
