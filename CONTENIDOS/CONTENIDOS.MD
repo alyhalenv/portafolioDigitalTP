@@ -7,9 +7,9 @@ Recopilar todas las actividades generadas en el transcurso y desarrollo del síl
 
 | Unidad | Estado | Enlace |
 | :--- | :---: | :--- |
-| **PRIMERA UNIDAD** | 📖 En curso | [INGRESAR](./CONTENIDOS/UNIDAD_ONE/) |
-| **SEGUNDA UNIDAD** | 🔒 Pendiente | [INGRESAR](./CONTENIDOS/UNIDAD_TWO/) |
-| **TERCERA UNIDAD** | 🔒 Pendiente | [INGRESAR](./CONTENIDOS/UNIDAD_THREE/) |
+| **PRIMERA UNIDAD** | 📖 En curso | [INGRESAR](./UNIDAD_ONE/) |
+| **SEGUNDA UNIDAD** | 🔒 Pendiente | [INGRESAR](./UNIDAD_TWO/) |
+| **TERCERA UNIDAD** | 🔒 Pendiente | [INGRESAR](./UNIDAD_THREE/) |
 
 ---
 
