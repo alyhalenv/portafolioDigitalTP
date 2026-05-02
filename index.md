@@ -22,6 +22,41 @@
 | **PERIODO:** | Marzo – Agosto 2026 |
 
 <br>
+<br>
+
+<div align="center">
+
+---
+
+### 📂 Navegación de Contenidos
+
+<a href="#contenido-portafolio">
+  <img src="https://img.shields.io/badge/ENTRAR_AL_PORTAFOLIO-2D333B?style=for-the-badge&logo=github&logoColor=white&labelColor=0056b3" alt="Entrar al Portafolio">
+</a>
+
+<br>
+<br>
+
+---
+
+</div>
+
+<br>
+
+<div id="contenido-portafolio"></div>
+
+## 🎯 Objetivo del Portafolio
+Recopilar todas las actividades generadas en el transcurso y desarrollo del sílabo durante el periodo lectivo, con el fin de evidenciar el aprendizaje obtenido.
+
+## 📚 Unidades de Aprendizaje
+
+| Unidad | Estado | Enlace |
+| :--- | :---: | :--- |
+| **PRIMERA UNIDAD** | 📖 En curso | [Ver actividades](#) |
+| **SEGUNDA UNIDAD** | 🔒 Pendiente | [Ver actividades](#) |
+| **TERCERA UNIDAD** | 🔒 Pendiente | [Ver actividades](#) |
+
+---
 
 ---
 <div align="center">
