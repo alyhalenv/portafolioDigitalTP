@@ -10,7 +10,7 @@
 ## 💻 Portafolio Digital de Aprendizaje
 ### **Asignatura:** Teoría de la Programación
 
-</div>
+<div aling = "center">
 
 <br>
 
