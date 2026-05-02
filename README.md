@@ -33,7 +33,7 @@
 
 <div align="center">
 
-<a href="./CONTENIDO.MD/">
+<a href="./CONTENIDOS/CONTENIDOS.MD/">
   <img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png" alt="Entrar al Portafolio" width="150px">
 </a>
 
