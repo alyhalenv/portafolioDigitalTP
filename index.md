@@ -16,10 +16,10 @@
 
 | Información del Estudiante | Detalles Académicos |
 | :--- | :--- |
-| **Nombre:** | Alvaro Yhalen Villafuerte Condoy |
-| **Carrera:** | Computación – Primer Ciclo |
-| **Docente:** | Ing. Lissette Geoconda Lopez Faican |
-| **Periodo:** | Marzo – Agosto 2026 |
+| **ESTUDIANTE:** | Alvaro Yhalen Villafuerte Condoy |
+| **CARRERA:** | Computación – Primer Ciclo |
+| **DOCENTE:** | Ing. Lissette Geoconda Lopez Faican |
+| **PERIODO:** | Marzo – Agosto 2026 |
 
 <br>
 
