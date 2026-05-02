@@ -37,16 +37,13 @@
 
 ### 📂 Acceso al Contenido
 
+<div align="center">
+
 <a href="./Contenidos/">
-  <img src="https://sl.bing.net/iogNdiOj8Fw" alt="Entrar al Portafolio" width="250px">
+  <img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png" alt="Entrar al Portafolio" width="150px">
 </a>
 
 <br>
-<b>Haz clic en la imagen para ingresar</b>
+<h3> 📂 [ CLICK AQUÍ PARA ENTRAR AL PORTAFOLIO ] </h3>
 
----
-
-</div>
-
-  <sub>Generado para el registro académico de la UNL - 2026</sub>
 </div>
