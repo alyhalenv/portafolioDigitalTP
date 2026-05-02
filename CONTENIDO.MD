@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>🎯 Objetivo del Portafolio <\h1>
+<h1>🎯 OBJETIVO DEL PORTAFOLIO</h1>
 Recopilar todas las actividades generadas en el transcurso y desarrollo del sílabo durante el periodo lectivo, con el fin de evidenciar el aprendizaje obtenido.
 
 ## 📚 Unidades de Aprendizaje
