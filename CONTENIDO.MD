@@ -1,3 +1,4 @@
+<div align="center">
 
 ## 🎯 Objetivo del Portafolio
 Recopilar todas las actividades generadas en el transcurso y desarrollo del sílabo durante el periodo lectivo, con el fin de evidenciar el aprendizaje obtenido.
