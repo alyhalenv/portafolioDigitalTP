@@ -38,6 +38,6 @@
 </a>
 
 <br>
-<h3> 📂 [ CLICK AQUÍ PARA ENTRAR AL PORTAFOLIO ] </h3>
+<h3> 📂 [ CLICK PARA ENTRAR AL PORTAFOLIO ] </h3>
 
 </div>
