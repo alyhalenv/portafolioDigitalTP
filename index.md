@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://unl.edu.ec/sites/default/files/inline-images/logo-unl-footer.png" width="400px">
+<img src="[https://unl.edu.ec/sites/default/files/inline-images/logo-unl-footer.png](https://camo.githubusercontent.com/61bbae9ba6e0d24721a5c099974b99887446f8d59e5efdbbab774617277acfce/68747470733a2f2f756e6c2e6564752e65632f73697465732f64656661756c742f66696c65732f6c6f676f67726973253230636f7069612e706e67)" width="400px">
 
 # UNIVERSIDAD NACIONAL DE LOJA
 ### FACULTAD DE LA ENERGÍA, LAS INDUSTRIAS Y LOS RECURSOS NATURALES NO RENOVABLES
