@@ -28,10 +28,10 @@
 
 ---
 
-### 📂 Navegación de Contenidos
+### 📂 Navegación del Contenido 
 
 <a href="CONTENIDO.MD">
-  <img src="https://img.shields.io/badge/ENTRAR_AL_PORTAFOLIO-2D333B?style=for-the-badge&logo=github&logoColor=white&labelColor=0056b3" alt="Entrar al Portafolio">
+  <img src="[https://img.shields.io/badge/ENTRAR_AL_PORTAFOLIO-2D333B?style=for-the-badge&logo=github&logoColor=white&labelColor=0056b3](https://sl.bing.net/iogNdiOj8Fw)" alt="Entrar al Portafolio">
 </a>
 
   <sub>Generado para el registro académico de la UNL - 2026</sub>
