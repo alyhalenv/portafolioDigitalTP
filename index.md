@@ -30,7 +30,7 @@
 
 ### 📂 Navegación de Contenidos
 
-<a href="#contenido-portafolio">
+<a href="CONTENIDO.MD">
   <img src="https://img.shields.io/badge/ENTRAR_AL_PORTAFOLIO-2D333B?style=for-the-badge&logo=github&logoColor=white&labelColor=0056b3" alt="Entrar al Portafolio">
 </a>
 
