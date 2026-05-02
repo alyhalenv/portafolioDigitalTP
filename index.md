@@ -7,7 +7,7 @@
 
 ---
 
-## 💻 Portafolio Digital de Aprendizaje
+## PORTAFOLIO DIGITAL DE APRENDIZAJE 
 ### **Asignatura:** Teoría de la Programación
 
 <div aling = "center">
