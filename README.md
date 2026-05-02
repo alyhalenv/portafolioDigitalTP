@@ -14,7 +14,7 @@
 
 <br>
 
-
+| Información | Detalles Académicos |
 | :--- | :--- |
 | **ESTUDIANTE:** | Alvaro Yhalen Villafuerte Condoy |
 | **CARRERA:** | Computación – Primer Ciclo |
