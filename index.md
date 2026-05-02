@@ -28,12 +28,6 @@
 
 ---
 
-### 📂 Navegación del Contenido 
-
-<a href="CONTENIDO.MD">
-<div align="center">
-
----
 
 ### 📂 Acceso al Contenido
 
