@@ -3,7 +3,7 @@
 <h1> 𝕆𝔹𝕁𝔼𝕋𝕀𝕍𝕆 𝔻𝔼𝕃 ℙ𝕆ℝ𝕋𝔸𝔽𝕆𝕃𝕀𝕆</h1>
 Recopilar todas las actividades generadas en el transcurso y desarrollo del sílabo durante el periodo lectivo, con el fin de evidenciar el aprendizaje obtenido.
 
-## 📚 Unidades de Aprendizaje
+## 📚 DIVISION DEL PORTAFOLIO
 
 | Unidad | Estado | Enlace |
 | :--- | :---: | :--- |
