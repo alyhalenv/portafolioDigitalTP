@@ -14,8 +14,7 @@ Un *algoritmo* lo podemos definir como una serie de pasos o instrucciones de man
 
 <div align="center">
   
-<img src="./IMAGES/algoritmo.png" width="350px">
-
+<img src="./IMAGES/algoritmo.png" width="500px">
 
 </div>
 
