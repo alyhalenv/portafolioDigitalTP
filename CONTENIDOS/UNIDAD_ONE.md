@@ -107,7 +107,6 @@ Una vez teniendo en cuenta las variables para el proceso, procedemos a realizarl
 
 
 ### PSEUDOCÓDIGO ESCRITO ✅
-
   
 <img src="./IMAGES/pseudocodigoproblema.png" width="500px">
 
@@ -143,7 +142,12 @@ Se pudo dar resolución a la problemática del usuario por medio de la generaci�
 
 </div>
 
+
 ## 🟡REFLEXIÓN CRÍTICA 🟡
+
+Con el cumplimiento de la primera unidad, podemos decir que el dearollo y estudio de algortimos han permitido desarollorar y mejorar el pensamiento computacional. Pues gracias a las herramientas como PSeInt, que aunque simples, permiten demostrar como es de importante una buena capacidad de estructurar soluciones por medio de pasos ordenados, he de aqui la vitalidad de enteder la problemática en su totalidad y no de manera parcial.
+Una vez captado todo lo básico en la introducción en la programación, durante la transferencia a un lenguaje completo de programación, se pudo realizar con mayor facilidad gracias a las bases obtenidas anteriormente.
+Para este punto es importante destacar que a comparación de PSeInt, donde usabamos palabras en nuestro lenguaje natal (Español) para la generación del algoritmo, en lenguajes de programación como lo es C, la cosa es diferente, pues se utilizan palabras predefinidas para generar una acción en especifica dentro de este programa, al igual que el uso de mascaras para poder realizar la lectura y escritura de variables durante la ejecución del mismo. 
 
 <div align="center">
 
