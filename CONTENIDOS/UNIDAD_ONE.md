@@ -81,7 +81,17 @@ Un empleador de la concesonaria de autos TOYOTA en Loja, posee un inconveniente,
 
 ##ANALISIS DEL PROBLEMA 
 
-El usuario posee una necesidad de saber cuales son los valores de comisión independientes para cada uno de sus vendedores
+El usuario posee una necesidad de saber cuales son los valores de comisión independientes para cada uno de sus vendedores.
+Por lo tanto primero definimos las variables que necesitaremos para el problema.
+
+<div align="center">
+  
+| Variable | Uso |
+| :--- | :--- | 
+| precioCarro1 | Recibir y guardar valor del carro 1 |
+| precioCarro2 | Recibir y guardar valor del carro 2 |
+| precioCarro3 | Recibir y guardar valor del carro 3 |
+
 </div>
 
 ---
