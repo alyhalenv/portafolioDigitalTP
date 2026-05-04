@@ -23,8 +23,8 @@ Es la representación gráfica de un algoritmo o proceso. [cite_start]A diferenc
 #### 📝 Ejemplo de Prueba de Escritorio
 | Datos de Entrada | Proceso | Datos de Salida |
 | :--- | :--- | :--- |
-| Primer Número: 2 | Suma = 2 + 4 | 6 |
-| Segundo Número: 4 | | |
+| Primer Número: 1 | Suma = 2 + 4 | 6 |
+
 
 [cite_start][cite: 20]
 
