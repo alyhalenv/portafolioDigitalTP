@@ -42,11 +42,14 @@ Un diagrama de flujo no es mas que la representación gráfica de un algoritmo o
 ### 4. Prueba de Escritorio
 Una prueba de escritorio es una técnica o prueba manual que se utiliza para la veracidad de la respuesta y proceso de ejecución de un algoritmo.
 
+<div align="center">
+
 #### 📝 Ejemplo de Prueba de Escritorio
 | Datos de Entrada | Proceso | Datos de Salida |
 | :--- | :--- | :--- |
 | Primer Número: 1 | Suma = 2 + 4 | 6 |
 
+</div>
 
 ### 5. Programación por Bloques
 Un diagrama de flujo no es mas que la representación gráfica de un algoritmo o proceso, que a diferencia del pseudocódigo que usa palabras predefinidas para definir el proceso, este utiliza símbolos geométricos conectados entre si por medio de flechas para mostrar visualmente la trayectoria del algoritmo, generando una manera más didáctica para el análisis de estos procesos.
