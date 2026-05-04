@@ -151,8 +151,6 @@ Con el fin de ver la veracidad de los datos obtenidos por nuestro algoritmo en e
 ### FINALMENTE
 Se pudo dar resolución a la problemática del usuario por medio de la generación de este algorito y de igual manera se comprueba la vericidad de los datos generados por el algoritmo.
 
-</div>
-
 
 ## 🟡REFLEXIÓN CRÍTICA 🟡
 
@@ -162,6 +160,7 @@ Una vez captado todo lo básico en la introducción en la programación, durante
 Para este punto es importante destacar que a comparación de PSeInt, donde usabamos palabras en nuestro lenguaje natal (Español) para la generación del algoritmo, en lenguajes de programación como lo es C, la cosa es diferente, pues se utilizan palabras predefinidas para generar una acción en especifica dentro de este programa, al igual que el uso de mascaras para poder realizar la lectura y escritura de variables durante la ejecución del mismo. 
 
 Dando como respuesta que las diferentes transiciones entre el aprendizaje permita garantizar una eficiencia y consolidar una base sólida para la automatización de procesos con exactitud, y permitir enfrentar desafios tecnológicos con una mentalidad analítica, crítica y altamente adaptable a las exigencias de nuestro entorno actual.
+
 
 
 <div align="center">
