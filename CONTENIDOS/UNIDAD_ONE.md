@@ -30,10 +30,14 @@ Una vez teniendo en cuenta el concepto sobre el algoritmo, a el pseudocódigo lo
 
 </div>
 
-
 ### 3. Diagrama de Flujo
 Un diagrama de flujo no es mas que la representación gráfica de un algoritmo o proceso, que a diferencia del pseudocódigo que usa palabras predefinidas para definir el proceso, este utiliza símbolos geométricos conectados entre si por medio de flechas para mostrar visualmente la trayectoria del algoritmo, generando una manera más didáctica para el análisis de estos procesos.
 
+<div align="center">
+  
+<img src="./IMAGES/diagramadeflujo.png" width="500px">
+
+</div>
 
 ### 4. Prueba de Escritorio
 Una prueba de escritorio es una técnica o prueba manual que se utiliza para la veracidad de la respuesta y proceso de ejecución de un algoritmo.
@@ -46,6 +50,12 @@ Una prueba de escritorio es una técnica o prueba manual que se utiliza para la 
 
 ### 5. Programación por Bloques
 Un diagrama de flujo no es mas que la representación gráfica de un algoritmo o proceso, que a diferencia del pseudocódigo que usa palabras predefinidas para definir el proceso, este utiliza símbolos geométricos conectados entre si por medio de flechas para mostrar visualmente la trayectoria del algoritmo, generando una manera más didáctica para el análisis de estos procesos.
+
+<div align="center">
+  
+<img src="./IMAGES/programacionbloques.png" width="500px">
+
+</div>
 
 ---
 
