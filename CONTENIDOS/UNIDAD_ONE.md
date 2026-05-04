@@ -105,15 +105,26 @@ Una vez teniendo en cuenta las variables para el proceso, procedemos a realizarl
   
 <img src="./IMAGES/diagramadeflujoproblema.png" width="500px">
 
+</div>
 
 ### PSEUDOCÓDIGO ESCRITO ✅
+
+<div align="center">
   
 <img src="./IMAGES/pseudocodigoproblema.png" width="500px">
 
+</div>
+
 ### VERIFICACION DEL PSEUDOCODIGO 📃
+
+<div align="center">
 
 <img src="./IMAGES/verificacionpseudocodigo.png" width="500px">
 
+</div>
+
+<div align="center">
+  
 ### ⚪ CODIFICACION EN LENGUAJE DE PROGRAMACION C ⚪
 Una vez realizado el pseudocódigo y haberlo probado, podemos proceder a escribir el algoritmo en lenguaje de programación C, tomando como referencia el pseudocódigo con el fin de evitar errores. 
 
@@ -140,7 +151,7 @@ Con el fin de ver la veracidad de los datos obtenidos por nuestro algoritmo en e
 ### FINALMENTE
 Se pudo dar resolución a la problemática del usuario por medio de la generación de este algorito y de igual manera se comprueba la vericidad de los datos generados por el algoritmo.
 
-
+</div>
 
 
 ## 🟡REFLEXIÓN CRÍTICA 🟡
