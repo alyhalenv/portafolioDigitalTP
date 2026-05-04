@@ -111,7 +111,7 @@ Una vez teniendo en cuenta las variables para el proceso, procedemos a realizarl
   
 <img src="./IMAGES/pseudocodigoproblema.png" width="500px">
 
-### vERIFICACION DEL PSEUDOCODIGO 📃
+### VERIFICACION DEL PSEUDOCODIGO 📃
 
 
 
