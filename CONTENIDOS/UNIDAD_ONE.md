@@ -98,8 +98,24 @@ Por lo tanto primero definimos las variables que necesitaremos para el problema.
 Una vez teniendo en cuenta las variables para el proceso, procedemos a realizarlo en psenit para generar el algoritmo.
 
 </div>
+
 ### DIAGRAMA DE FLUJO OBTENIDO ✅
 
+<div align="center">
+  
+<img src="./IMAGES/diagramadeflujoproblema.png" width="500px">
+
+</div>
+
+</div>
+
+### PSEUDOCÓDIGO ESCRITO ✅
+
+<div align="center">
+  
+<img src="./IMAGES/pseudocodigoproblema.png" width="500px">
+
+</div>
 
 
 ---
