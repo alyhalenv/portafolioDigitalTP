@@ -121,13 +121,22 @@ Una vez realizado el pseudocódigo y haberlo probado, podemos proceder a escribi
 <img src="./IMAGES/lenguajeconcesionaria.png" width="500px">
 
 ### 🟦 VERIFICACION EN LA TERMINAL DE VISUAL STUDIO CODE 🟦
-Ya escrito el codigo fuente, copilamos con el comando *"gcc concesonariocarro.c -o consesonariocarro"*,  y posterior lo ejecutamos en la temrinal con el comando *".\concesonariocarro.exe"*.
+Ya escrito el codigo fuente, copilamos con el comando *"gcc concesonariocarro.c -o consesonariocarro"*,  y posterior lo ejecutamos en la terminal con el comando *".\concesonariocarro.exe"*.
 
 <img src="./IMAGES/compilacioncodigo.png" width="500px">
 
 Una vez que nuestro lenguaje ha sido copialdo, lo ejecutamos en la terminal y verificamos si todo funciona correctamente.
 
 <img src="./IMAGES/ejecucionprograma.png" width="500px">
+
+### ☑️PRUEBA DE ESCRITORIO☑️
+Con el fin de ver la veracidad de los datos obtenidos por nuestro algoritmo en el programa, se procede a generar una prueba de escritorio.
+
+| Datos de Entrada | Proceso | Datos de Salida |
+| :--- | :--- | :--- |
+| Precio Carro 1 = 20000 | 20000*0.4 | 800 |
+| Precio Carro 2 = 15500 | 15x`500*0.4 | 620 |
+| Precio Carro 3 = 32000 | 32000*0.4 | 1280 |
 
 </div>
 <div align="center">
