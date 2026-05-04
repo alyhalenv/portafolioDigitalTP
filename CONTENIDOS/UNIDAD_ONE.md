@@ -91,6 +91,9 @@ Por lo tanto primero definimos las variables que necesitaremos para el problema.
 | precioCarro1 | Recibir y guardar valor del carro 1 |
 | precioCarro2 | Recibir y guardar valor del carro 2 |
 | precioCarro3 | Recibir y guardar valor del carro 3 |
+| comision1 | Para guardar el valor calculado del 1er automovil |
+| comision2 | Para guardar el valor calculado del 2do automovil |
+| comision3 | Para guardar el valor calculado del 3er automovil |
 
 </div>
 
