@@ -167,6 +167,9 @@ Para este punto es importante destacar que a comparación de PSeInt, donde usaba
 Dando como respuesta que las diferentes transiciones entre el aprendizaje permita garantizar una eficiencia y consolidar una base sólida para la automatización de procesos con exactitud, y permitir enfrentar desafios tecnológicos con una mentalidad analítica, crítica y altamente adaptable a las exigencias de nuestro entorno actual.
 
 
+## 🟣DECLARACIÓN DEL USO DE LA IA GENERATIVA 🤖🟣
+Para la creación de este portafolio virtual se uso Gemini (Google,2026) para ayudar con la mejora de la visualización del mismo en GitHub.
+
 
 <div align="center">
 
