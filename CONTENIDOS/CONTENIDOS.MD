@@ -14,8 +14,8 @@ Recopilar todas las actividades generadas en el transcurso y desarrollo del síl
 ---
 <div align="center">
 
-[⬅️ VOLVER A CARATULA](./CONTENIDOS/ README.md)
+[⬅️ VOLVER A CARATULA](./README.md)
 
 </div>
 ---
-<div align="center">
+
