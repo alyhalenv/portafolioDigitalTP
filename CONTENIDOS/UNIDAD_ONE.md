@@ -12,6 +12,13 @@
 
 Un *algoritmo* lo podemos definir como una serie de pasos o instrucciones de manera finita, con el propósito de solucionar una problemática o tarea en específico. 
 
+<div align="center">
+
+![algoritmo](./algoritmo.png)
+
+</div>
+
+
 ### 2. Pseudocódigos
 *¿Qué es un psudocódigo?*
 
