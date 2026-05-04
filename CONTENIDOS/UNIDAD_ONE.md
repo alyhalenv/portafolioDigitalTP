@@ -138,7 +138,13 @@ Con el fin de ver la veracidad de los datos obtenidos por nuestro algoritmo en e
 | Precio Carro 2 = 15500 | 15500*0.4 | 620 |
 | Precio Carro 3 = 32000 | 32000*0.4 | 1280 |
 
+### CONCLUSIÓN
+Se pudo dar resolución a la problemática del usuario por medio de la generación de este algorito y de igual manera se comprueba la vericidad de los datos generados por el algoritmo.
+
 </div>
+
+## 🟡REFLEXIÓN CRÍTICA 🟡
+
 <div align="center">
 
 [⬅️ VOLVER A CONTENIDOS](./CONTENIDOS.MD)
