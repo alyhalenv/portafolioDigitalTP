@@ -56,7 +56,7 @@ Un lenguaje de programación lo podemos definir como aquel conjunto de reglas, n
 
 <div align="center">
   
-<img src="./IMAGES/.lenguajeprogramacion.png" width="500px">
+<img src="./IMAGES/lenguajeprogramacion.png" width="500px">
 
 </div>
 
