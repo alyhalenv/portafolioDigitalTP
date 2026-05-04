@@ -13,8 +13,9 @@
 Un *algoritmo* lo podemos definir como una serie de pasos o instrucciones de manera finita, con el propósito de solucionar una problemática o tarea en específico. 
 
 <div align="center">
+  
+<img src="./IMAGES/algoritmo.png" width="350px">
 
-![algoritmo](./IMAGES/algoritmo.png)
 
 </div>
 
