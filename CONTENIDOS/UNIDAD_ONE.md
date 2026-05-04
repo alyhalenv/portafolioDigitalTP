@@ -139,6 +139,8 @@ Una vez que nuestro lenguaje ha sido copialdo, lo ejecutamos en la terminal y ve
 
 <img src="./IMAGES/ejecucionprograma.png" width="500px">
 
+</div>
+
 ### ☑️PRUEBA DE ESCRITORIO☑️
 Con el fin de ver la veracidad de los datos obtenidos por nuestro algoritmo en el programa, se procede a generar una prueba de escritorio.
 
