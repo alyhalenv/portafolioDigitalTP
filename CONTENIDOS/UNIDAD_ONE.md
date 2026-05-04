@@ -135,7 +135,7 @@ Con el fin de ver la veracidad de los datos obtenidos por nuestro algoritmo en e
 | Datos de Entrada | Proceso | Datos de Salida |
 | :--- | :--- | :--- |
 | Precio Carro 1 = 20000 | 20000*0.4 | 800 |
-| Precio Carro 2 = 15500 | 15x`500*0.4 | 620 |
+| Precio Carro 2 = 15500 | 15500*0.4 | 620 |
 | Precio Carro 3 = 32000 | 32000*0.4 | 1280 |
 
 </div>
