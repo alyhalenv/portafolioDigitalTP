@@ -60,6 +60,12 @@ Un diagrama de flujo no es mas que la representación gráfica de un algoritmo o
 
 </div>
 
+<div align="center">
+
+#### 🧠EJERCICIO APLICATIVO DE LOS CONOCIMIENTOS🧠
+
+</div>
+
 ---
 
 <div align="center">
