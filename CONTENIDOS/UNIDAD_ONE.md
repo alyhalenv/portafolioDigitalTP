@@ -74,12 +74,12 @@ Un diagrama de flujo no es mas que la representación gráfica de un algoritmo o
 
 ## 🧠EJERCICIO APLICATIVO DE LOS CONOCIMIENTOS🧠
 
-### PLANTEAMIENTO DEL PROBLEMA 
+## PLANTEAMIENTO DEL PROBLEMA 
 
 Un empleador de la concesonaria de autos TOYOTA en Loja, posee un inconveniente, que nunca consigue el valor de las comisiones generadas por sus tres vendedores, la cual es del 4% sobre la venta de cada automovil, el desea un programa que le de esos valores de manera rapida y eficiente.
 
 
-## ANALISIS DEL PROBLEMA 
+### ANALISIS DEL PROBLEMA 
 
 El usuario posee una necesidad de saber cuales son los valores de comisión independientes para cada uno de sus vendedores.
 Por lo tanto primero definimos las variables que necesitaremos para el problema.
@@ -98,6 +98,9 @@ Por lo tanto primero definimos las variables que necesitaremos para el problema.
 Una vez teniendo en cuenta las variables para el proceso, procedemos a realizarlo en psenit para generar el algoritmo.
 
 </div>
+### DIAGRAMA DE FLUJO OBTENIDO ✅
+
+
 
 ---
 
