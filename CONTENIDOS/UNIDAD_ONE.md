@@ -54,8 +54,11 @@ Una prueba de escritorio es una técnica o prueba manual que se utiliza para la 
 ### 5. Lenguajes de Programación.
 Un lenguaje de programación lo podemos definir como aquel conjunto de reglas, normas, simbolos, palabras predefinidas, que permiten a un programador escrbir de manera digital las instrucciones que desea que un ordenador las ejecute. O en otras palbras es aquel lenguaje que permite a nostros los seres humanos poder mantener una comunicación más comprensible y entendible con un ordenador, pues el lenguaje de estos es en binario (0,1) y seria muy complicado de interpretarlo.
 
+<div align="center">
+  
+<img src="./IMAGES/.lenguajeprogramacion.png" width="500px">
 
-
+</div>
 
 ### 6. Programación por Bloques
 Un diagrama de flujo no es mas que la representación gráfica de un algoritmo o proceso, que a diferencia del pseudocódigo que usa palabras predefinidas para definir el proceso, este utiliza símbolos geométricos conectados entre si por medio de flechas para mostrar visualmente la trayectoria del algoritmo, generando una manera más didáctica para el análisis de estos procesos.
@@ -68,12 +71,16 @@ Un diagrama de flujo no es mas que la representación gráfica de un algoritmo o
 
 <div align="center">
 
+
 ## 🧠EJERCICIO APLICATIVO DE LOS CONOCIMIENTOS🧠
 
 ###PLANTEAMIENTO DEL PROBLEMA 
+
 Un empleador de la concesonaria de autos TOYOTA en Loja, posee un inconveniente, que nunca consigue el valor de las comisiones generadas por sus tres vendedores, la cual es del 4% sobre la venta de cada automovil, el desea un programa que le de esos valores de manera rapida y eficiente.
 
+
 ##ANALISIS DEL PROBLEMA 
+
 El usuario posee una necesidad de saber cuales son los valores de comisión independientes para cada uno de sus vendedores
 </div>
 
