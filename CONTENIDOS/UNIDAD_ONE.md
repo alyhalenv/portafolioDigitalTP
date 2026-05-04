@@ -24,6 +24,12 @@ Un *algoritmo* lo podemos definir como una serie de pasos o instrucciones de man
 
 Una vez teniendo en cuenta el concepto sobre el algoritmo, a el pseudocódigo lo podemos definir como una manera de escritura de un algoritmo con una similitud muy cercana al lenguaje humano, pero manteniendo la estructura rígida de un lenguaje de programación. 
 
+<div align="center">
+  
+<img src="./IMAGES/pseudocodigo.png" width="500px">
+
+</div>
+
 
 ### 3. Diagrama de Flujo
 Un diagrama de flujo no es mas que la representación gráfica de un algoritmo o proceso, que a diferencia del pseudocódigo que usa palabras predefinidas para definir el proceso, este utiliza símbolos geométricos conectados entre si por medio de flechas para mostrar visualmente la trayectoria del algoritmo, generando una manera más didáctica para el análisis de estos procesos.
