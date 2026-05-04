@@ -64,6 +64,6 @@ Un diagrama de flujo no es mas que la representación gráfica de un algoritmo o
 
 <div align="center">
 
-[⬅️ Volver a Contenidos](./CONTENIDOS.MD)
+[⬅️ VOLVER A CONTENIDOS](./CONTENIDOS.MD)
 
 </div>
