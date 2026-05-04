@@ -111,11 +111,26 @@ Una vez teniendo en cuenta las variables para el proceso, procedemos a realizarl
   
 <img src="./IMAGES/pseudocodigoproblema.png" width="500px">
 
+### vERIFICACION DEL PSEUDOCODIGO 📃
+
+
+
+
+
+
+
+### ⚪ CODIFICACION EN LENGUAJE DE PROGRAMACION C ⚪
+Una vez realizado el pseudocódigo y haberlo probado, podemos proceder a escribir el algoritmo en lenguaje de programación C, tomando como referencia el pseudocódigo con el fin de evitar errores. 
+
+
+### 🟦 VERIFICACION EN LA TERMINAL DE VISUAL STUDIO CODE 🟦
+Ya escrito el codigo fuente, copilamos con el comando *"gcc concesonariocarro.c -o consesonariocarro"*,  y posterior lo ejecutamos en la temrinal con el comando *".\concesonariocarro.exe"*.
+
+
+
+
+
 </div>
-
-
----
-
 <div align="center">
 
 [⬅️ VOLVER A CONTENIDOS](./CONTENIDOS.MD)
