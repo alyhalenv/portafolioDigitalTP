@@ -105,13 +105,9 @@ Una vez teniendo en cuenta las variables para el proceso, procedemos a realizarl
   
 <img src="./IMAGES/diagramadeflujoproblema.png" width="500px">
 
-</div>
-
-</div>
 
 ### PSEUDOCÓDIGO ESCRITO ✅
 
-<div align="center">
   
 <img src="./IMAGES/pseudocodigoproblema.png" width="500px">
 
