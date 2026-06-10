@@ -13,6 +13,9 @@ Es una estructura de control que evalúa una expresión lógica (una condición 
 
 #### Estructura en Pseudocódigo
 
+<img width="403" height="235" alt="image" src="https://github.com/user-attachments/assets/6634d573-2128-4528-8340-ba6885e285d1" />
+
+
 ### B. Condicional Doble: (Si-Entonces-Sino / If-Else)
 A diferencia e la estructura simple, esta permite al programa elegir entre dos caminos o alternativas mutuamente excluyentes basados en el resultado de una condición. Si la expresión lógica es verdadera, se ejecuta obligatoriamente el primer bloque de instrucciones (rama del Entonces); si es falsa, se ejecuta un segundo bloque alternativo de instrucciones (rama del Sino).
 
