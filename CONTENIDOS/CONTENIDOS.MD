@@ -17,6 +17,16 @@ Recopilar todas las actividades generadas en el transcurso y desarrollo del síl
 Para la creación de este portafolio virtual se uso Gemini (Google,2026) para ayudar con la mejora de la visualización del mismo en GitHub.
 
 ---
+
+## 🟣BIBLIOGRAFIA 🟣
+
+[1]J. E. Guerra Salazar, M. V. Ramos Valencia, and G. E. Vallejo Vallejo, Programando en C desde la práctica: problemas resueltos. Puerto Madero Editorial, 2023. 
+Disponible en: https://dialnet.unirioja.es/servlet/libro?codigo=933288  
+[2]J. M. Toro Bonilla, Fundamentos de programación: Python, 2.ª ed. Editorial Universidad de Sevilla, 2023. 
+Disponible en: https://dialnet.unirioja.es/servlet/libro?codigo=871117 
+[3]JGraph. draw.io. (2021) [Software]. Versión 15.5.2. Disponible en: https://www.drawio.com/ 
+
+---
 <div align="center">
 
 [⬅️ VOLVER A CARATULA](../README.md)
