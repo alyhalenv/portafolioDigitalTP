@@ -114,7 +114,7 @@ Es una estructura de control especializada que se utiliza principalmente cuando 
 
 <div align="center">
 
-## 🧠 EJERCICIO APLICATIVO NRO. 2: CONTROL DE NOTAS SIMPLIFICADO 🧠
+## 🧠 EJERCICIO APLICATIVO NRO. 2: CONTROL DE NOTAS 🧠
 
 </div>
 
