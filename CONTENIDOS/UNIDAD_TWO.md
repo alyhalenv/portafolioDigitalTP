@@ -130,8 +130,11 @@ Es una estructura de control especializada que se utiliza principalmente cuando 
 </div>
 
 ### DIAGRAMA DE FLUJO OBTENIDO ✅
-Para ingresar al diagrama elaborado en draw.io, ingrese al siguiente enlace:
+
+Para acceder al diagrama de flujo, por favor ingrese al siguiente enlace, cuando ingrese a drive, notara que la imagen esta borrosa, para observarla con la mejor calidad, de clik en la parte superior derecha Abrir con draw.io.
+
 https://drive.google.com/file/d/1_Y7AWNTsnmndNXMcjblL8B_nMINaqZJM/view?usp=sharing
+
   
 ### ⚪ CODIFICACION EN LENGUAJE DE PROGRAMACION C ⚪
 Una vez realizado el diagrama y haberlo probado, podemos proceder a escribir el algoritmo en lenguaje de programación C, tomando como referencia el diagrama con el fin de evitar errores. 
