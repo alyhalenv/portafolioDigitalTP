@@ -180,9 +180,7 @@ int main() {
     return 0;
 }
 
-
-
-}
+```
 
 
 ### 🟦 VERIFICACION EN LA TERMINAL DE VISUAL STUDIO CODE 🟦
