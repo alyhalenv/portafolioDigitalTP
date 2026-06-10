@@ -178,7 +178,7 @@ int main() {
 
 
 ### 🟦 VERIFICACION EN LA TERMINAL DE VISUAL STUDIO CODE 🟦
-Ya escrito el codigo fuente, copilamos con el comando *"gcc diezsuma.c -o diezsumao"*,  y posterior lo ejecutamos en la terminal con el comando *".\diezsuma.exe"*.
+Ya escrito el codigo fuente, copilamos con el comando *"gcc diezsuma.c -o diezsuma"*,  y posterior lo ejecutamos en la terminal con el comando *".\diezsuma.exe"*.
 
 <img width="725" height="180" alt="image" src="https://github.com/user-attachments/assets/b88bd10b-7cc5-42b3-920b-559e32bcb8dc" />
 
