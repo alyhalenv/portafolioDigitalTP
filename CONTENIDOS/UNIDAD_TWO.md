@@ -223,7 +223,7 @@ Este ejercicio nos permite demostrar que no se necesita un código gigante y com
 ---
 <div align="center">
 
-[⬅️ VOLVER A CONTENIDOS](../CONTENIDOS.md)
+[⬅️ VOLVER A CONTENIDOS](./CONTENIDOS.MD)
 
 </div>
 ---
