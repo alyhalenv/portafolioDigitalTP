@@ -130,15 +130,11 @@ Es una estructura de control especializada que se utiliza principalmente cuando 
 </div>
 
 ### DIAGRAMA DE FLUJO OBTENIDO ✅
-
-<div align="center">
-  
-
-
-</div>
+Para ingresar al diagrama elaborado en draw.io, ingrese al siguiente enlace:
+https://drive.google.com/file/d/1_Y7AWNTsnmndNXMcjblL8B_nMINaqZJM/view?usp=sharing
   
 ### ⚪ CODIFICACION EN LENGUAJE DE PROGRAMACION C ⚪
-Una vez realizado el diagrama y haberlo probado, podemos proceder a escribir el algoritmo en lenguaje de programación C, tomando como referencia el pseudocódigo con el fin de evitar errores. 
+Una vez realizado el diagrama y haberlo probado, podemos proceder a escribir el algoritmo en lenguaje de programación C, tomando como referencia el diagrama con el fin de evitar errores. 
 
 #include <stdio.h>
 int main(){
