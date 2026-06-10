@@ -118,6 +118,7 @@ Es una estructura de control especializada que se utiliza principalmente cuando 
 
 </div>
 
+
 ## 📑 PLANTEAMIENTO DEL PROBLEMA 
 Se requiere un programa en lenguaje C que solicite al usuario la nota final de un estudiante (un valor entre 0.0 y 10.0). El programa debe cumplir con dos condiciones:
 1. Si el usuario ingresa una nota menor a 0 o mayor a 10, el sistema debe mostrar un mensaje de error y exigir que se vuelva a ingresar la nota de forma repetida hasta que sea válida.
