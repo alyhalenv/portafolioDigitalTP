@@ -102,6 +102,13 @@ Es una estructura de control especializada que se utiliza principalmente cuando 
 
 <img width="544" height="106" alt="image" src="https://github.com/user-attachments/assets/e7150598-e5c0-4ea3-8052-a952f2a35aca" />
 
+#### 📊 Diagrama de flujo
+
+<img width="511" height="212" alt="image" src="https://github.com/user-attachments/assets/fba2380e-58bb-45e2-9026-7cd5cba4f2f0" />
+
+</div>
+
+
 ## 🧠EJERCICIO APLICATIVO DE LOS CONOCIMIENTOS🧠
 
 ## PLANTEAMIENTO DEL PROBLEMA 
@@ -175,8 +182,3 @@ Se pudo dar resolución a la problemática del usuario por medio de la generaci�
 
 
 
-#### 📊 Diagrama de flujo
-
-<img width="511" height="212" alt="image" src="https://github.com/user-attachments/assets/fba2380e-58bb-45e2-9026-7cd5cba4f2f0" />
-
-</div>
