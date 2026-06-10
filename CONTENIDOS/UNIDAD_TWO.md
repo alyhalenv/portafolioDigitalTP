@@ -73,8 +73,10 @@ A diferencia radical del bucle analizado anteriormente, esta se consolida como u
 Es una estructura de control especializada que se utiliza principalmente cuando el programador conoce con absoluta exactitud el número determinado y fijo de veces que se debe realizar la iteración antes de iniciar el ciclo. Esta herramienta utiliza una variable contadora interna que se inicializa explícitamente en un rango, se incrementa (o decrementa) automáticamente según el paso configurado y detiene de inmediato su ejecución al alcanzar el valor límite final fijado.
 
 #### Estructura en Pseudocódigo
+<img width="544" height="106" alt="image" src="https://github.com/user-attachments/assets/e7150598-e5c0-4ea3-8052-a952f2a35aca" />
 
 
 #### Diagrama de flujo
+<img width="511" height="212" alt="image" src="https://github.com/user-attachments/assets/fba2380e-58bb-45e2-9026-7cd5cba4f2f0" />
 
 
