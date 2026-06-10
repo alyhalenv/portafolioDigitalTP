@@ -13,6 +13,7 @@ Es una estructura de control que evalúa una expresión lógica (una condición 
 
 #### Estructura en Pseudocódigo
 
+<img width="228" height="107" alt="image" src="https://github.com/user-attachments/assets/ce452a5e-c3c0-4998-9176-b461ea6a9bb8" />
 
 #### Diagrama de flujo
 <img width="403" height="235" alt="image" src="https://github.com/user-attachments/assets/6634d573-2128-4528-8340-ba6885e285d1" />
@@ -22,6 +23,9 @@ Es una estructura de control que evalúa una expresión lógica (una condición 
 A diferencia e la estructura simple, esta permite al programa elegir entre dos caminos o alternativas mutuamente excluyentes basados en el resultado de una condición. Si la expresión lógica es verdadera, se ejecuta obligatoriamente el primer bloque de instrucciones (rama del Entonces); si es falsa, se ejecuta un segundo bloque alternativo de instrucciones (rama del Sino).
 
 #### Estructura en Pseudocódigo
+
+<img width="203" height="136" alt="image" src="https://github.com/user-attachments/assets/2da1fb82-8240-4b70-b1c4-c107cbd1615c" />
+
 
 #### Diagrama de flujo
 <img width="346" height="212" alt="image" src="https://github.com/user-attachments/assets/1279a3e0-1aa5-419a-927c-6c17236c7426" />
