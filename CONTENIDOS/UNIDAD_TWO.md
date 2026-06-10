@@ -109,7 +109,9 @@ Es una estructura de control especializada que se utiliza principalmente cuando 
 </div>
 
 <div align="center">
+  
 ## 🧠EJERCICIO APLICATIVO DE LOS CONOCIMIENTOS🧠
+
 </div>
 
 ## PLANTEAMIENTO DEL PROBLEMA 
