@@ -220,4 +220,13 @@ La principal dificultad que se tuvo durante el desarrollo del siguiente ejercici
 
 Este ejercicio nos permite demostrar que no se necesita un código gigante y complejo para blindar un programa contra datos erróneos. La combinación correcta de bucles y condicionales como el do-while y el if-else soluciona de forma óptima esta problematica, puesto que el programa no avanza ni toma decisiones de aprobación hasta que su dato de entrada sea un valor real y lógico. Esta estructura fundamenta las bases de la escritura de código seguro en ingeniería informática.
 
+---
+<div align="center">
+
+[⬅️ VOLVER A CONTENIDOS](../CONTENIDOS.md)
+
+</div>
+---
+
+
 
