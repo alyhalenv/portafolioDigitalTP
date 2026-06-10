@@ -144,7 +144,7 @@ Es una estructura de control especializada que se utiliza principalmente cuando 
 ### ⚪ CODIFICACION EN LENGUAJE DE PROGRAMACION C ⚪
 Una vez realizado el diagrama y haberlo probado, podemos proceder a escribir el algoritmo en lenguaje de programación C, tomando como referencia el pseudocódigo con el fin de evitar errores. 
 
-CODIGO APE FASE 9.c
+CODIGO PROFESORESTUDIANTES
 #include <stdio.h>
 int main(){
 
@@ -252,7 +252,7 @@ Con el fin de ver la veracidad de los datos obtenidos por nuestro algoritmo en e
 ### FINALMENTE
 Se pudo dar resolución a la problemática del usuario por medio de la generación de este algorito y de igual manera se comprueba la vericidad de los datos generados por el algoritmo.
 
-</div>
+
 
 ---
 
