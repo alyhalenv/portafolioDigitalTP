@@ -136,7 +136,7 @@ Se requiere un programa en lenguaje C que solicite al usuario la nota final de u
 * `else` $\rightarrow$ Reprobado.
 * **Datos de Salida:**
 * Mensaje en pantalla indicando si el alumno está "APROBADO" o "REPROBADO".
-
+* 
 ---
 
 ### 📊 DIAGRAMA DE FLUJO OBTENIDO ✅
