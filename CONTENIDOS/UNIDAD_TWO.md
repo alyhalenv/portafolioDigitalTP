@@ -1,4 +1,4 @@
-markdown_content = """# Estructuras de Control de Flujo: Condicionales y Repetitivas
+# Estructuras de Control de Flujo: Condicionales y Repetitivas
 
 Las estructuras de control son los pilares fundamentales de la lógica de programación. Permiten modificar el flujo lineal de un programa, tomando decisiones o repitiendo bloques de código según se cumplan o no determinadas condiciones.
 
