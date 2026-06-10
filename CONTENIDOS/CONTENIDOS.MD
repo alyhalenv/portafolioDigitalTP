@@ -19,3 +19,6 @@ Recopilar todas las actividades generadas en el transcurso y desarrollo del síl
 </div>
 ---
 
+## 🟣DECLARACIÓN DEL USO DE LA IA GENERATIVA 🤖🟣
+Para la creación de este portafolio virtual se uso Gemini (Google,2026) para ayudar con la mejora de la visualización del mismo en GitHub.
+
