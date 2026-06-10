@@ -180,22 +180,25 @@ int main() {
 ### 🟦 VERIFICACION EN LA TERMINAL DE VISUAL STUDIO CODE 🟦
 Ya escrito el codigo fuente, copilamos con el comando *"gcc diezsuma.c -o diezsuma"*,  y posterior lo ejecutamos en la terminal con el comando *".\diezsuma.exe"*.
 
+##CASO 1
+
 <img width="725" height="180" alt="image" src="https://github.com/user-attachments/assets/b88bd10b-7cc5-42b3-920b-559e32bcb8dc" />
 
+##CASO 2
 
-
+<img width="733" height="191" alt="image" src="https://github.com/user-attachments/assets/706e6b6a-fbde-4536-82d1-59b13d67f4e0" />
 
 ### ☑️PRUEBA DE ESCRITORIO☑️
 Con el fin de ver la veracidad de los datos obtenidos por nuestro algoritmo en el programa, se procede a generar una prueba de escritorio.
 
-CASO 1
+##CASO 1
 
 | Intento | Valor ingresado (nota) | Condición del Bucle (nota < 0 \|\| nota > 10) | Condición de Aprobación (nota >= 7.0) | Resultado en Pantalla |
 |----------|-------------------------|-----------------------------------------------|---------------------------------------|------------------------|
 | 1 | -2 | **Verdadera** (Inválida, el bucle repite) | - | Mensaje de ERROR |
 | 2 | 10 | **Falsa** (Válida, sale del bucle) | **Verdadera** | **ESTUDIANTE APROBADO** |
 
-CASO 2
+##CASO 2
 
 | Intento | Valor ingresado (nota) | Condición del Bucle (nota < 0 \|\| nota > 10) | Condición de Aprobación (nota >= 7.0) | Resultado en Pantalla |
 |----------|-------------------------|-----------------------------------------------|---------------------------------------|------------------------|
