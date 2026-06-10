@@ -56,11 +56,8 @@ Es una estructura de control de selección que evalúa el valor exacto de una va
 
 ---
 
-<div align="center">
 
 ## 2. 🔄 ESTRUCTURAS REPETITIVAS
-
-</div>
 
 Las **estructuras de control de flujo** son los pilares fundamentales de la lógica de programación. Su función principal es **romper la ejecución lineal y secuencial** por defecto de un ordenador (que procesa el código línea por línea, de arriba hacia abajo). Al evaluar condiciones lógicas o matemáticas, estas herramientas otorgan al desarrollador la capacidad de reaccionar ante datos cambiantes mediante dos acciones clave: **bifurcar el camino** del programa (tomar decisiones) o **ciclar bloques de instrucciones** (repetir tareas monótonas) de forma totalmente automatizada.
 
