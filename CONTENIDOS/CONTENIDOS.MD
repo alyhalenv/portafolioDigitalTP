@@ -12,13 +12,13 @@ Recopilar todas las actividades generadas en el transcurso y desarrollo del síl
 | **TERCERA UNIDAD** | 🔒 Pendiente | [INGRESAR](./UNIDAD_THREE/) |
 
 ---
+
+## 🟣DECLARACIÓN DEL USO DE LA IA GENERATIVA 🤖🟣
+Para la creación de este portafolio virtual se uso Gemini (Google,2026) para ayudar con la mejora de la visualización del mismo en GitHub.
 <div align="center">
 
 [⬅️ VOLVER A CARATULA](../README.md)
 
 </div>
 ---
-
-## 🟣DECLARACIÓN DEL USO DE LA IA GENERATIVA 🤖🟣
-Para la creación de este portafolio virtual se uso Gemini (Google,2026) para ayudar con la mejora de la visualización del mismo en GitHub.
 
