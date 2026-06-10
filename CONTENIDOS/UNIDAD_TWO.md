@@ -136,10 +136,6 @@ Es una estructura de control especializada que se utiliza principalmente cuando 
 
 
 </div>
-
-
-
-<div align="center">
   
 ### ⚪ CODIFICACION EN LENGUAJE DE PROGRAMACION C ⚪
 Una vez realizado el diagrama y haberlo probado, podemos proceder a escribir el algoritmo en lenguaje de programación C, tomando como referencia el pseudocódigo con el fin de evitar errores. 
