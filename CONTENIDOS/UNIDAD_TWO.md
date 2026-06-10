@@ -121,6 +121,9 @@ Es una estructura de control especializada que se utiliza principalmente cuando 
 
 ### ANALISIS DEL PROBLEMA 
 
+•	Creacion de un programa  que debe permitir ingresar la cantidad total de estudiantes, y mediante un bucle, repetir el proceso de lectura de calificaciones y cálculo de la nota final, para cada uno de los estudiantes del curso.  
+•	En cada repetición, el programa solicitará los valores de los componentes (ACD, APE, AA y ES), calculará la nota final, mostrará el resultado final y una referencia de su calificación antes de pasar al siguiente estudiante. 
+•	Además, el programa debe permitir validar que las notas ingresadas estén dentro del rango permitido (0 a 10). Si el profesor ingresa una nota fuera de este rango, el programa mostrará un mensaje de error y le solicitara que ingrese el dato nuevamente hasta que sea correcto para las operaciones del algoritmo.
 
 
 <div align="center">
