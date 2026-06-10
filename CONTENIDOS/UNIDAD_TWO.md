@@ -110,123 +110,74 @@ Es una estructura de control especializada que se utiliza principalmente cuando 
 
 <div align="center">
   
-## 🧠EJERCICIO APLICATIVO DE LOS CONOCIMIENTOS🧠
-
-</div>
-
-## PLANTEAMIENTO DEL PROBLEMA 
-
-
-
-
-### ANALISIS DEL PROBLEMA 
-
-Crear un programa  que debe permita ingresar una canidad estudiantes, y mediante un bucle, repetir el proceso de solicitu, lectura de calificaciones y cálculo de la nota final, para cada uno de los estudiantes del curso, por lo cual en cada repetición, el programa solicitará los valores de los componentes (ACD, APE, AA y ES), calculará la nota final, mostrará el resultado final y una referencia de su calificación antes de pasar al siguiente estudiante.
-•	Además, el programa va permitir validar que las notas ingresadas estén dentro del rango permitido (0 a 10). Si el profesor ingresa una nota fuera de este rango, el programa mostrará un mensaje de error y le solicitara que ingrese el dato nuevamente hasta que sea correcto para las operaciones del algoritmo.
-
+---
 
 <div align="center">
-  
 
+## 🧠 EJERCICIO APLICATIVO NRO. 2: CONTROL DE NOTAS SIMPLIFICADO 🧠
 
 </div>
 
-### DIAGRAMA DE FLUJO OBTENIDO ✅
+## 📑 PLANTEAMIENTO DEL PROBLEMA 
+Se requiere un programa en lenguaje C que solicite al usuario la nota final de un estudiante (un valor entre 0.0 y 10.0). El programa debe cumplir con dos condiciones:
+1. Si el usuario ingresa una nota menor a 0 o mayor a 10, el sistema debe mostrar un mensaje de error y exigir que se vuelva a ingresar la nota de forma repetida hasta que sea válida.
+2. Una vez que la nota sea correcta, el programa debe evaluar si el estudiante aprobó o reprobó. Se aprueba con una nota mayor o igual a 7.0.
 
-Para acceder al diagrama de flujo, por favor ingrese al siguiente enlace, cuando ingrese a drive, notara que la imagen esta borrosa, para observarla con la mejor calidad, de clik en la parte superior derecha Abrir con draw.io.
+---
 
-https://drive.google.com/file/d/1_Y7AWNTsnmndNXMcjblL8B_nMINaqZJM/view?usp=sharing
+### 🔍 ANÁLISIS DEL PROBLEMA 
 
-  
-### ⚪ CODIFICACION EN LENGUAJE DE PROGRAMACION C ⚪
-Una vez realizado el diagrama y haberlo probado, podemos proceder a escribir el algoritmo en lenguaje de programación C, tomando como referencia el diagrama con el fin de evitar errores. 
+* **Datos de Entrada:**
+    * `nota`: Variable de tipo flotante (`float`) que almacena la calificación del alumno.
+* **Proceso:**
+    * Usar un bucle de post-prueba `do-while` para obligar al usuario a ingresar una nota válida en el rango de $0$ a $10$.
+    * Usar una estructura condicional doble `if - else` para verificar el estado académico:
+        * `if (nota >= 7.0)` $\rightarrow$ Aprobado.
+        * `else` $\rightarrow$ Reprobado.
+* **Datos de Salida:**
+    * Mensaje en pantalla indicando si el alumno está "APROBADO" o "REPROBADO".
 
+---
+
+### 📊 DIAGRAMA DE FLUJO OBTENIDO ✅
+
+<div align="center">
+  <img width="380" height="500" alt="Diagrama de flujo del algoritmo simplificado de aprobacion en C" src="https://github.com/user-attachments/assets/TU_IMAGEN_DEL_DIAGRAMA_SIMPLIFICADO_AQUI" />
+</div>
+
+---
+
+### ⚪ CODIFICACIÓN EN LENGUAJE DE PROGRAMACIÓN C ⚪
+El código es directo y utiliza pocas líneas, manteniendo la estructura limpia y fácil de leer:
+
+```c
 #include <stdio.h>
-int main(){
 
-    //DEFINIMOS LAS VARIABLES PARA EL PROBLEMA
-    int est, cont;
-    float notaACD, notaAA, notaAPE, notaES;
-    float pACD, pAA, pAPE, pES, nF;
+int main() {
+    float nota;
 
-    //SOLICITAMOS EL # DE ESTUDIANTES AL USUARIO 
-    do{
-        printf("INGRESE EL NUMERO DE ESTUDIANTES DE SU CURSO: ");
-        scanf("%i",&est);
-            if(est<=0){
-            printf("VALOR INVALIDO, INGRESE NUEVAMENTE.\n");
-            }
-    }while(est<=0);
+    printf("=== SISTEMA DE CONTROL ACADÉMICO ===\n\n");
 
-    //INICIAMOS EL BUCLE PARA LAS NOTAS DE LOS ESTUDIANTES
-    for(cont=1;cont<=est;cont++){
-        printf("\n");
-        printf("INGRESE LAS NOTAS DEL ESTUDIANTE NRO.%i\n",cont);\
-        printf("\n");
+    // 1. BUCLE DE VALIDACIÓN (DO-WHILE)
+    do {
+        printf("Ingrese la nota final del estudiante (0 - 10): ");
+        scanf("%f", &nota);
 
-        do{
-        printf("Nota de ACD sobre 10: ");
-        scanf("%f",&notaACD);
-            if(notaACD<0 || notaACD>10){
-                printf("NOTA INVALIDA, INGRESE NUEVAMENTE.\n");
-            }
-        }while(notaACD<0 || notaACD>10);
-
-        do{
-        printf("Nota de AA sobre 10: ");
-        scanf("%f",&notaAA);
-            if(notaAA<0 || notaAA>10){
-                printf("NOTA INVALIDA, INGRESE NUEVAMENTE.\n");
-            }
-        }while(notaAA<0 || notaAA>10);
-
-        do{
-        printf("Nota de APE sobre 10: ");
-        scanf("%f",&notaAPE);
-            if(notaAPE<0 || notaAPE>10){
-                printf("NOTA INVALIDA, INGRESE NUEVAMENTE.\n");
-            }
-        }while(notaAPE<0 || notaAPE>10);
-
-        do{
-        printf("Nota de ES sobre 10: ");
-        scanf("%f",&notaES);
-            if(notaES<0 || notaES>10){
-                printf("NOTA INVALIDA, INGRESE NUEVAMENTE.\n");
-            }
-        }while(notaES<0 || notaES>10);
-        
-        //CON LOS DATOS PROCEDEMOS A REALIZAR EL CALCULO 
-        pACD = notaACD*0.2f;
-        pAA = notaAA*0.2f;
-        pAPE = notaAPE*0.25f;
-        pES = notaES*0.35f;
-        nF = pACD + pAA + pAPE + pES;
-
-        //IMPRIMIMOS LOS PONDERADOS Y NOTA FINAL DEL ESTUDIANTE
-        printf("\n");
-        printf("-------------------------------------------------\n");
-        printf("\n");
-        printf("El ponderado de la nota ACD es: %.2f\n",pACD);
-        printf("El ponderado de la nota AA es: %.2f\n",pAA);
-        printf("El ponderado de la nota APE es: %.2f\n",pAPE);
-        printf("El ponderado de la nota ES es: %.2f\n",pES);
-        printf("\n");
-        printf("POR LO TANTO LA NOTA FINAL ES: %.2f\n", nF);
-
-        //APLICAMOS UN CONDICIONAL PARA INDICAR SI LA NOTA ES BUENA O MALA
-        if(nF >=9 ){
-            printf("EXCELENTE PROMEDIO\n");
-        }else if (nF >=7 && nF<9){
-            printf("BUEN PROMEDIO\n");
-        }else if(nF >=5 && nF<7){
-            printf("PROMEDIO REGULAR\n");
-        }else{
-            printf("PROMEDIO DEFICIENTE\n");
+        // Mensaje de error si la nota no cumple el rango
+        if (nota < 0.0f || nota > 10.0f) {
+            printf("[ERROR]: Nota invalida. Debe ser entre 0 y 10.\n\n");
         }
-        printf("\n");
-        printf("-------------------------------------------------\n");
+    } while (nota < 0.0f || nota > 10.0f);
+
+    // 2. ESTRUCTURA CONDICIONAL (IF-ELSE)
+    printf("\n-------------------------------------------------\n");
+    if (nota >= 7.0f) {
+        printf("ESTADO: ¡ESTUDIANTE APROBADO! 🎉\n");
+    } else {
+        printf("ESTADO: ESTUDIANTE REPROBADO ❌\n");
     }
+    printf("-------------------------------------------------\n");
+
     return 0;
 }
 ### 🟦 VERIFICACION EN LA TERMINAL DE VISUAL STUDIO CODE 🟦
