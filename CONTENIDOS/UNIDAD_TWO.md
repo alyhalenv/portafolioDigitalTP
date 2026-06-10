@@ -128,14 +128,14 @@ Se requiere un programa en lenguaje C que solicite al usuario la nota final de u
 ### 🔍 ANÁLISIS DEL PROBLEMA 
 
 * **Datos de Entrada:**
-    * `nota`: Variable de tipo flotante (`float`) que almacena la calificación del alumno.
+* `nota`: Variable de tipo flotante (`float`) que almacena la calificación del alumno.
 * **Proceso:**
-    * Usar un bucle de post-prueba `do-while` para obligar al usuario a ingresar una nota válida en el rango de 0 a 10.
-    * Usar una estructura condicional doble `if - else` para verificar el estado académico:
-        * `if (nota >= 7.0)` $\rightarrow$ Aprobado.
-        * `else` $\rightarrow$ Reprobado.
+* Usar un bucle de post-prueba `do-while` para obligar al usuario a ingresar una nota válida en el rango de 0 a 10.
+* Usar una estructura condicional doble `if - else` para verificar el estado académico:
+ * `if (nota >= 7.0)` $\rightarrow$ Aprobado.
+* `else` $\rightarrow$ Reprobado.
 * **Datos de Salida:**
-    * Mensaje en pantalla indicando si el alumno está "APROBADO" o "REPROBADO".
+* Mensaje en pantalla indicando si el alumno está "APROBADO" o "REPROBADO".
 
 ---
 
