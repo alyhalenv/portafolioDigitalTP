@@ -102,6 +102,79 @@ Es una estructura de control especializada que se utiliza principalmente cuando 
 
 <img width="544" height="106" alt="image" src="https://github.com/user-attachments/assets/e7150598-e5c0-4ea3-8052-a952f2a35aca" />
 
+## 🧠EJERCICIO APLICATIVO DE LOS CONOCIMIENTOS🧠
+
+## PLANTEAMIENTO DEL PROBLEMA 
+
+
+
+
+### ANALISIS DEL PROBLEMA 
+
+
+
+<div align="center">
+  
+
+
+</div>
+
+### DIAGRAMA DE FLUJO OBTENIDO ✅
+
+<div align="center">
+  
+
+
+</div>
+
+### PSEUDOCÓDIGO ESCRITO ✅
+
+<div align="center">
+  
+
+
+</div>
+
+### VERIFICACION DEL PSEUDOCODIGO 📃
+
+<div align="center">
+
+
+
+</div>
+
+<div align="center">
+  
+### ⚪ CODIFICACION EN LENGUAJE DE PROGRAMACION C ⚪
+Una vez realizado el pseudocódigo y haberlo probado, podemos proceder a escribir el algoritmo en lenguaje de programación C, tomando como referencia el pseudocódigo con el fin de evitar errores. 
+
+
+### 🟦 VERIFICACION EN LA TERMINAL DE VISUAL STUDIO CODE 🟦
+Ya escrito el codigo fuente, copilamos con el comando *"gcc concesonariocarro.c -o consesonariocarro"*,  y posterior lo ejecutamos en la terminal con el comando *".\concesonariocarro.exe"*.
+
+
+
+### ☑️PRUEBA DE ESCRITORIO☑️
+Con el fin de ver la veracidad de los datos obtenidos por nuestro algoritmo en el programa, se procede a generar una prueba de escritorio.
+
+| Datos de Entrada | Proceso | Datos de Salida |
+| :--- | :--- | :--- |
+| Precio Carro 1 = 20000 | 20000*0.4 | 800 |
+| Precio Carro 2 = 15500 | 15500*0.4 | 620 |
+| Precio Carro 3 = 32000 | 32000*0.4 | 1280 |
+
+### FINALMENTE
+Se pudo dar resolución a la problemática del usuario por medio de la generación de este algorito y de igual manera se comprueba la vericidad de los datos generados por el algoritmo.
+
+</div>
+
+---
+
+## 🟡REFLEXIÓN CRÍTICA 🟡
+
+
+
+
 #### 📊 Diagrama de flujo
 
 <img width="511" height="212" alt="image" src="https://github.com/user-attachments/assets/fba2380e-58bb-45e2-9026-7cd5cba4f2f0" />
