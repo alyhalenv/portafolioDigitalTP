@@ -188,10 +188,19 @@ Ya escrito el codigo fuente, copilamos con el comando *"gcc diezsuma.c -o diezsu
 ### ☑️PRUEBA DE ESCRITORIO☑️
 Con el fin de ver la veracidad de los datos obtenidos por nuestro algoritmo en el programa, se procede a generar una prueba de escritorio.
 
+CASO 1
+
 | Intento | Valor ingresado (nota) | Condición del Bucle (nota < 0 \|\| nota > 10) | Condición de Aprobación (nota >= 7.0) | Resultado en Pantalla |
 |----------|-------------------------|-----------------------------------------------|---------------------------------------|------------------------|
 | 1 | -2 | **Verdadera** (Inválida, el bucle repite) | - | Mensaje de ERROR |
 | 2 | 10 | **Falsa** (Válida, sale del bucle) | **Verdadera** | **ESTUDIANTE APROBADO** |
+
+CASO 2
+
+| Intento | Valor ingresado (nota) | Condición del Bucle (nota < 0 \|\| nota > 10) | Condición de Aprobación (nota >= 7.0) | Resultado en Pantalla |
+|----------|-------------------------|-----------------------------------------------|---------------------------------------|------------------------|
+| 1 | -8 | **Verdadera** (Inválida, el bucle repite) | - | Mensaje de ERROR |
+| 2 | 5 | **Falsa** (Válida, sale del bucle) | **Falsa** | **ESTUDIANTE REPROBADO** |
 
 ### FINALMENTE
 Se pudo dar resolución a la problemática del usuario por medio de la generación de este algorito y de igual manera se comprueba la vericidad de los datos generados por el algoritmo.
