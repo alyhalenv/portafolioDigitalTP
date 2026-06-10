@@ -50,15 +50,23 @@ Es una estructura clasificada como de "pre-prueba" o evaluación previa, debido 
 
 #### Estructura en Pseudocódigo
 
-<img width="400" height="250" alt="Bucle Mientras" src="" />
+<img width="246" height="101" alt="image" src="https://github.com/user-attachments/assets/6a1edf79-13ec-4d79-8f06-43532b3157de" />
 
 
-### B. Bucle Repetir (Repetir-Hasta Que / Do-Until)
+#### Diagrama de flujo
+
+<img width="356" height="237" alt="image" src="https://github.com/user-attachments/assets/b211cfaf-647e-4002-b1ee-4e972890a800" />
+
+
+### B. Bucle Repetir (Hacer-Cuando/ Do-While)
 A diferencia radical del bucle analizado anteriormente, esta se consolida como una estructura de "post-prueba" o evaluación posterior. El compilador primero ejecuta el bloque de instrucciones designado y luego realiza la evaluación de la condición al final del camino; esto garantiza de forma estricta que el código interno se ejecute al menos una vez antes de que el programa verifique si se debe continuar con la siguiente iteración.
 
 #### Estructura en Pseudocódigo
+<img width="281" height="110" alt="image" src="https://github.com/user-attachments/assets/50246726-e57b-411a-8366-f0d7cd84f0b9" />
 
-<img width="400" height="250" alt="Bucle Repetir" src="" />
+
+#### Diagrama de flujo
+<img width="368" height="202" alt="image" src="https://github.com/user-attachments/assets/2487f719-60c1-4e8d-9a23-87e28770e4f1" />
 
 
 ### C. Bucle Para (Para-Hasta-Hacer / For)
@@ -66,6 +74,7 @@ Es una estructura de control especializada que se utiliza principalmente cuando 
 
 #### Estructura en Pseudocódigo
 
-<img width="400" height="250" alt="Bucle Para" src="" />
+
+#### Diagrama de flujo
 
 
