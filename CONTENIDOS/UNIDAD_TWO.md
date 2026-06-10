@@ -130,7 +130,7 @@ Se requiere un programa en lenguaje C que solicite al usuario la nota final de u
 * **Datos de Entrada:**
     * `nota`: Variable de tipo flotante (`float`) que almacena la calificación del alumno.
 * **Proceso:**
-    * Usar un bucle de post-prueba `do-while` para obligar al usuario a ingresar una nota válida en el rango de $0$ a $10$.
+    * Usar un bucle de post-prueba `do-while` para obligar al usuario a ingresar una nota válida en el rango de 0 a 10.
     * Usar una estructura condicional doble `if - else` para verificar el estado académico:
         * `if (nota >= 7.0)` $\rightarrow$ Aprobado.
         * `else` $\rightarrow$ Reprobado.
@@ -141,29 +141,28 @@ Se requiere un programa en lenguaje C que solicite al usuario la nota final de u
 
 ### 📊 DIAGRAMA DE FLUJO OBTENIDO ✅
 
-<div align="center">
-  <img width="380" height="500" alt="Diagrama de flujo del algoritmo simplificado de aprobacion en C" src="https://github.com/user-attachments/assets/TU_IMAGEN_DEL_DIAGRAMA_SIMPLIFICADO_AQUI" />
-</div>
+<img width="293" height="500" alt="image" src="https://github.com/user-attachments/assets/31c9094d-2056-4d73-87b3-9b63639460b5" />
 
 ---
 
 ### ⚪ CODIFICACIÓN EN LENGUAJE DE PROGRAMACIÓN C ⚪
 El código es directo y utiliza pocas líneas, manteniendo la estructura limpia y fácil de leer:
 
-```c
+```
+
 #include <stdio.h>
 
 int main() {
     float nota;
 
-    printf("=== SISTEMA DE CONTROL ACADÉMICO ===\n\n");
+    printf("=== SISTEMA DE NOTAS ACADEMICAS ===\n\n");
 
     // 1. BUCLE DE VALIDACIÓN (DO-WHILE)
     do {
         printf("Ingrese la nota final del estudiante (0 - 10): ");
         scanf("%f", &nota);
 
-        // Mensaje de error si la nota no cumple el rango
+        // Mensaje de error si la nota no cumple el rango solicitado
         if (nota < 0.0f || nota > 10.0f) {
             printf("[ERROR]: Nota invalida. Debe ser entre 0 y 10.\n\n");
         }
@@ -172,16 +171,21 @@ int main() {
     // 2. ESTRUCTURA CONDICIONAL (IF-ELSE)
     printf("\n-------------------------------------------------\n");
     if (nota >= 7.0f) {
-        printf("ESTADO: ¡ESTUDIANTE APROBADO! 🎉\n");
+        printf("ESTADO: ¡ESTUDIANTE APROBADO!\n");
     } else {
-        printf("ESTADO: ESTUDIANTE REPROBADO ❌\n");
+        printf("ESTADO: ESTUDIANTE REPROBADO\n");
     }
     printf("-------------------------------------------------\n");
 
     return 0;
 }
+
+
+
+}
 ### 🟦 VERIFICACION EN LA TERMINAL DE VISUAL STUDIO CODE 🟦
-Ya escrito el codigo fuente, copilamos con el comando *"gcc concesonariocarro.c -o consesonariocarro"*,  y posterior lo ejecutamos en la terminal con el comando *".\concesonariocarro.exe"*.
+Ya escrito el codigo fuente, copilamos con el comando *"gcc diezsuma.c -o diezsumao"*,  y posterior lo ejecutamos en la terminal con el comando *".\diezsuma.exe"*.
+<img width="725" height="180" alt="image" src="https://github.com/user-attachments/assets/e8569395-0c22-4b9e-a5aa-c9d8e85506ce" />
 
 
 
@@ -197,12 +201,15 @@ Con el fin de ver la veracidad de los datos obtenidos por nuestro algoritmo en e
 ### FINALMENTE
 Se pudo dar resolución a la problemática del usuario por medio de la generación de este algorito y de igual manera se comprueba la vericidad de los datos generados por el algoritmo.
 
+## DIFICULTADES
+
+La principal dificultad que se tuvo durante el desarrollo del siguiente ejercicio es el uso correcto de los operadores lógicos: Al construir la condición del bucle while, la principal confusión inicial suele ser usar el operador && (Y) en lugar de || (O). Si escribimos while(nota < 0 && nota > 10), el bucle nunca se repetiría porque una nota no puede ser menor que cero y mayor que diez al mismo tiempo. Se requiere obligatoriamente el operador || para detectar que cualquiera de los dos errores rompa el rango de evaluación de entrada.
 
 
 ---
 
 ## 🟡REFLEXIÓN CRÍTICA 🟡
 
-
+Este ejercicio nos permite demostrar que no se necesita un código gigante y complejo para blindar un programa contra datos erróneos. La combinación correcta de bucles y condicionales como el do-while y el if-else soluciona de forma óptima esta problematica, puesto que el programa no avanza ni toma decisiones de aprobación hasta que su dato de entrada sea un valor real y lógico. Esta estructura fundamenta las bases de la escritura de código seguro en ingeniería informática.
 
 
