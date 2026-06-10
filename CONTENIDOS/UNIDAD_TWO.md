@@ -140,7 +140,6 @@ Es una estructura de control especializada que se utiliza principalmente cuando 
 ### ⚪ CODIFICACION EN LENGUAJE DE PROGRAMACION C ⚪
 Una vez realizado el diagrama y haberlo probado, podemos proceder a escribir el algoritmo en lenguaje de programación C, tomando como referencia el pseudocódigo con el fin de evitar errores. 
 
-CODIGO PROFESORESTUDIANTES
 #include <stdio.h>
 int main(){
 
@@ -229,8 +228,6 @@ int main(){
     }
     return 0;
 }
-
-
 ### 🟦 VERIFICACION EN LA TERMINAL DE VISUAL STUDIO CODE 🟦
 Ya escrito el codigo fuente, copilamos con el comando *"gcc concesonariocarro.c -o consesonariocarro"*,  y posterior lo ejecutamos en la terminal con el comando *".\concesonariocarro.exe"*.
 
