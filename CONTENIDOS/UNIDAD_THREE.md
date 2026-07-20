@@ -1,77 +1,57 @@
-# Fundamentos de la Programación: Modularidad y Mecanismos de Transmisión de Parámetros
+# Introducción a la Modularidad y Transmisión de Parámetros
 
-## 1. Teoría de la Modularidad
+## 1. ¿Qué es la Modularidad?
 
-La **modularidad** es un principio de diseño de software que consiste en la descomposición de un sistema informático en partes más pequeñas, independientes y diferenciadas, denominadas **módulos**. Cada uno de estos módulos se encarga de ejecutar una tarea específica y bien definida dentro del ecosistema del programa.
+La **modularidad** es el principio de diseño de software que consiste en dividir un programa grande en partes más pequeñas y autónomas llamadas **módulos** (o funciones). 
 
-Este enfoque se fundamenta en el axioma metodológico de *"divide y vencerás"*, permitiendo abordar problemas complejos mediante la resolución de subproblemas más simples. 
-
-### Beneficios Principales
-* **Mantenibilidad:** Facilita la localización y corrección de errores, ya que las modificaciones en un módulo no alteran de forma imprevista el comportamiento de los demás.
-* **Reutilización de Código:** Los módulos diseñados genéricamente pueden ser invocados en múltiples secciones del proyecto o incluso en desarrollos futuros.
-* **Legibilidad:** Reduce la densidad del código principal, permitiendo una comprensión abstracta y estructurada del flujo del programa.
-* **Alta Cohesión y Bajo Acoplamiento:** Idealmente, un módulo debe tener una alta cohesión (concentrado en una sola tarea) y un bajo acoplamiento (independencia estricta de otros módulos).
+Su objetivo es aplicar la estrategia de *"divide y vencerás"*, permitiendo que el código sea más ordenado, fácil de entender, mantener y reutilizar.
 
 ---
 
-## 2. Mecanismos de Transmisión de Parámetros
+## 2. Paso por Valor vs. Paso por Referencia
 
-En el ámbito de la programación modular, los módulos (funciones o procedimientos) requieren comunicarse entre sí a través del intercambio de datos. Esto se logra mediante la **transmisión de parámetros**. A continuación, se analizan los dos métodos fundamentales.
+Para que los módulos se comuniquen entre sí, utilizan **parámetros** (datos que se pasan a las funciones). Existen dos formas fundamentales de transferir estos datos:
 
-### A. Paso de Parámetros por Valor
+### A. Paso por Valor (Copia)
+* **Definición:** La función recibe una **copia** del dato original.
+* **Resultado:** Cualquier cambio que se haga dentro de la función **no afecta** a la variable original externa, ya que solo se modifica su réplica.
 
-En el paso por valor, la función recibe una **copia local** del argumento que se le transfiere. Desde una perspectiva de gestión de memoria, se asigna una nueva dirección de memoria para almacenar esta réplica. 
-
-* **Comportamiento:** Cualquier modificación realizada sobre el parámetro dentro del ámbito (*scope*) de la función afectará únicamente a la copia local. 
-* **Seguridad:** La variable original declarada en el entorno llamador permanece inmutable, garantizando la integridad de los datos externos.
-
-### B. Paso de Parámetros por Referencia
-
-En el paso por referencia, la función no recibe una copia, sino la **dirección de memoria explícita** de la variable original. 
-
-* **Comportamiento:** El parámetro formal actúa como un alias o puntero directo a la variable del entorno llamador. Por lo tanto, cualquier operación o asignación efectuada dentro del módulo impactará de forma directa e inmediata a la variable original.
-* **Eficiencia:** Es óptimo para manejar estructuras de datos voluminosas (como arreglos u objetos complejos), ya que evita el costo computacional de duplicar la información en memoria.
+### B. Paso por Referencia (Original)
+* **Definición:** La función recibe el acceso directo (la dirección de memoria) del dato original.
+* **Resultado:** Cualquier cambio que se haga dentro de la función **sí afecta** y modifica de forma permanente a la variable original externa.
 
 ---
 
-## 3. Demostración Práctica (Ejemplo en C++)
+## 3. Ejemplo Práctico en C++
 
-A continuación se presenta un programa en lenguaje C++ que ilustra de manera empírica la diferencia operativa entre ambos mecanismos de transmisión.
+El siguiente código muestra la diferencia de forma directa y básica:
 
 ```cpp
 #include <iostream>
+using namespace std;
 
-// Prototipos de funciones
-void demostrarPasoPorValor(int numero);
-void demostrarPasoPorReferencia(int &numero);
+// Función por Valor: Recibe una copia
+void cambiarPorValor(int x) {
+    x = 99; // Solo cambia la copia local
+}
+
+// Función por Referencia: Recibe el dato original (usa el símbolo &)
+void cambiarPorReferencia(int &x) {
+    x = 99; // Cambia la variable original externa
+}
 
 int main() {
-    int variableOriginal = 10;
+    int numero = 10;
 
-    std::cout << "=== ESTADO INICIAL ===" << std::endl;
-    std::cout << "Valor original de la variable: " << variableOriginal << "\n\n";
+    // Caso 1: Paso por Valor
+    cambiarPorValor(numero);
+    cout << "Resultado por Valor: " << numero << endl; 
+    // Imprime 10 (El valor original NO cambió)
 
-    // 1. Ejecución del paso por valor
-    std::cout << "--- Ejecutando Paso por Valor ---" << std::endl;
-    demostrarPasoPorValor(variableOriginal);
-    std::cout << "Valor en main() despues de la funcion: " << variableOriginal << "\n\n";
-
-    // 2. Ejecución del paso por referencia
-    std::cout << "--- Ejecutando Paso por Referencia ---" << std::endl;
-    demostrarPasoPorReferencia(variableOriginal);
-    std::cout << "Valor en main() despues de la funcion: " << variableOriginal << "\n";
+    // Caso 2: Paso por Referencia
+    cambiarPorReferencia(numero);
+    cout << "Resultado por Referencia: " << numero << endl; 
+    // Imprime 99 (El valor original SÍ cambió)
 
     return 0;
-}
-
-// Implementación: Recibe una copia (Paso por Valor)
-void demostrarPasoPorValor(int numero) {
-    numero = numero + 50; // Se modifica solo la copia local
-    std::cout << "Valor modificado dentro de la funcion (copia): " << numero << std::endl;
-}
-
-// Implementación: Recibe la dirección de memoria (Paso por Referencia usando el operador &)
-void demostrarPasoPorReferencia(int &numero) {
-    numero = numero + 50; // Se modifica la variable original directamente
-    std::cout << "Valor modificado dentro de la funcion (referencia): " << numero << std::endl;
 }
