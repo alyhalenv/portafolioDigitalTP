@@ -1,109 +1,189 @@
-# Introducción a la Modularidad y Transmisión de Parámetros
+# 🚀 Guía Práctica de Programación: Modularidad y Estructuras de Arreglos
 
-## 1. ¿Qué es la Modularidad?
-
-La **modularidad** es el principio de diseño de software que consiste en dividir un programa grande en partes más pequeñas y autónomas llamadas **módulos** (o funciones). 
-
-Su objetivo es aplicar la estrategia de *"divide y vencerás"*, permitiendo que el código sea más ordenado, fácil de entender, mantener y reutilizar.
+Este repositorio contiene una explicación académica, clara y totalmente estructurada de los conceptos fundamentales de **Modularidad** y **Arreglos**, acompañados de sus respectivos ejemplos prácticos individuales en C++.
 
 ---
 
-## 2. Paso por Valor vs. Paso por Referencia
+## 📌 PARTE 1: Modularidad y Transmisión de Parámetros
 
-Para que los módulos se comuniquen entre sí, utilizan **parámetros** (datos que se pasan a las funciones). Existen dos formas fundamentales de transferir estos datos:
+La **modularidad** consiste en dividir un problema grande en partes más pequeñas y autónomas llamadas **módulos** (o funciones). Para comunicarse, las funciones intercambian datos a través de **parámetros** usando dos métodos fundamentales:
 
-### A. Paso por Valor (Copia)
-* **Definición:** La función recibe una **copia** del dato original.
-* **Resultado:** Cualquier cambio que se haga dentro de la función **no afecta** a la variable original externa, ya que solo se modifica su réplica.
+* **Paso por Valor:** La función recibe una **copia** del dato original. Cualquier cambio hecho dentro de la función **no afecta** a la variable externa.
+* **Paso por Referencia:** La función recibe la **dirección de memoria** real del dato (usando el símbolo `&`). Cualquier cambio hecho dentro de la función **sí afecta** a la variable externa.
 
-### B. Paso por Referencia (Original)
-* **Definición:** La función recibe el acceso directo (la dirección de memoria) del dato original.
-* **Resultado:** Cualquier cambio que se haga dentro de la función **sí afecta** y modifica de forma permanente a la variable original externa.
-
----
-
-## 3. Ejemplo Práctico en C++
-
-El siguiente código muestra la diferencia de forma directa y básica:
+### 💻 Código 1: Demostración de Parámetros
 
 ```cpp
+
 #include <iostream>
 using namespace std;
 
-// Función por Valor: Recibe una copia
+// Función por Valor: Trabaja con una copia
 void cambiarPorValor(int x) {
-    x = 99; // Solo cambia la copia local
+    x = 99; // Solo modifica la copia local
 }
 
-// Función por Referencia: Recibe el dato original (usa el símbolo &)
+// Función por Referencia: Trabaja con el dato original
 void cambiarPorReferencia(int &x) {
-    x = 99; // Cambia la variable original externa
+    x = 99; // Modifica la variable externa real
 }
 
 int main() {
     int numero = 10;
 
-    // Caso 1: Paso por Valor
-    cambiarPorValor(numero);
-    cout << "Resultado por Valor: " << numero << endl; 
-    // Imprime 10 (El valor original NO cambió)
+    cout << "=== PRUEBA DE PARÁMETROS ===" << endl;
+    cout << "Valor inicial de la variable: " << numero << endl;
 
-    // Caso 2: Paso por Referencia
+    // 1. Ejecución Paso por Valor
+    cambiarPorValor(numero);
+    cout << "Resultado por Valor: " << numero << " (No cambio)" << endl; 
+
+    // 2. Ejecución Paso por Referencia
     cambiarPorReferencia(numero);
-    cout << "Resultado por Referencia: " << numero << endl; 
-    // Imprime 99 (El valor original SÍ cambió)
+    cout << "Resultado por Referencia: " << numero << " (Si cambio)" << endl; 
 
     return 0;
 }
 
+```
+# 🚀 Guía Fundamental de Programación: Modularidad y Arreglos
+
+Este repositorio contiene una explicación académica y simplificada de la **Modularidad** y los **Arreglos**. Los ejemplos de código en C++ se han reducido a su estructura más básica posible para facilitar la comprensión directa de la teoría.
+
+---
+
+## 📌 PARTE 1: Modularidad y Transmisión de Parámetros
+
+La **modularidad** es el principio de diseño que consiste en dividir un programa en partes pequeñas llamadas **módulos** (funciones). Las funciones intercambian datos mediante **parámetros**. Existen dos formas básicas de transmitir estos datos:
+
+### 🅰️ Paso por Valor
+* **Teoría:** La función recibe una **copia** del dato. La variable original fuera de la función no sufre ningún cambio.
+
 ```cpp
+#include <iostream>
+using namespace std;
 
-# Estructuras de Datos: Arreglos (Arrays)
+void funcionValor(int x) {
+    x = 20; // Solo cambia la copia dentro de la función
+}
 
-## 1. ¿Qué es un Arreglo?
-
-En el ámbito de la ciencia de la computación, un **arreglo** (también conocido como *array*, vector o matriz) es una estructura de datos homogénea y estática. 
-
-* **Homogénea:** Significa que todos los elementos almacenados dentro del arreglo deben ser estrictamente del mismo tipo de datos (por ejemplo, solo enteros, solo flotantes o solo caracteres).
-* **Estática:** Su tamaño en memoria se define al momento de su creación y no puede cambiar durante la ejecución del programa.
-* **Indexación:** Cada elemento ocupa una posición consecutiva en la memoria y se accede a él mediante un **índice** (el cual, en la mayoría de lenguajes, inicia siempre en `0`).
-
----
-
-## 2. Tipos de Arreglos
-
-Los arreglos se clasifican principalmente según el número de dimensiones (índices) que requieren para localizar un dato:
-
-### A. Arreglos Unidimensionales (Vectores)
-Tienen una sola dimensión. Se pueden imaginar como una sola fila o una lista simple de elementos. Solo necesitan **un índice** para acceder a cualquier dato.
-
-### B. Arreglos Bidimensionales (Matrices)
-Tienen dos dimensiones. Se estructuran en forma de tabla con **filas y columnas**. Para acceder a un elemento, se requieren **dos índices**: el primero especifica la fila y el segundo la columna.
-
-*(Nota: Existen arreglos multidimensionales de 3 o más dimensiones, pero los unidimensionales y bidimensionales son los pilares fundamentales de la programación).*
+int main() {
+    int numero = 10;
+    funcionValor(numero);
+    cout << "Paso por Valor: " << numero << endl; // Imprime 10 (No cambió)
+    return 0;
+}
+```
 
 ---
 
-## 3. Ejemplos Prácticos en C++
+### 🅱️ Paso por Referencia
+* **Teoría:** La función recibe la **dirección real** de la variable usando el símbolo `&`. Cualquier cambio dentro de la función modifica la variable original.
 
-A continuación, se presentan dos ejemplos aislados y sumamente sencillos para entender cómo declarar, llenar y leer cada tipo de arreglo.
+```cpp
+#include <iostream>
+using namespace std;
 
-### Ejemplo 1: Arreglo Unidimensional (Vector)
+void funcionReferencia(int &x) {
+    x = 20; // Modifica la variable original externa
+}
+
+int main() {
+    int numero = 10;
+    funcionReferencia(numero);
+    cout << "Paso por Referencia: " << numero << endl; // Imprime 20 (Sí cambió)
+    return 0;
+}
+```
+
+---
+---
+
+## 📌 PARTE 2: Estructuras de Datos - Arreglos (Arrays)
+
+Un **arreglo** es una colección de datos del **mismo tipo** (homogénea) y de tamaño **fijo** (estática). Se accede a cada elemento mediante un **índice** numérico que siempre inicia en `0`.
+
+### 1️⃣ Arreglo Unidimensional (Vector)
+* **Teoría:** Es una lista simple de una sola dimensión. Solo requiere **un índice** `[i]` para acceder al dato.
 
 ```cpp
 #include <iostream>
 using namespace std;
 
 int main() {
-    // Declaración e inicialización de un vector de tamaño 3
-    int calificaciones[3] = {85, 90, 95};
+    // Un vector con 3 elementos
+    int vector[3] = {10, 20, 30};
 
-    cout << "=== ARREGLO UNIDIMENSIONAL ===" << endl;
-
-    // Recorremos el arreglo con un solo ciclo 'for'
-    for (int i = 0; i < 3; i++) {
-        cout << "Estudiante " << i << " - Calificacion: " << calificaciones[i] << endl;
-    }
+    // Acceso directo por índice
+    cout << "Indice 0: " << vector[0] << endl; // Imprime 10
+    cout << "Indice 2: " << vector[2] << endl; // Imprime 30
 
     return 0;
 }
+```
+
+---
+
+### 2️⃣ Arreglo Bidimensional (Matriz)
+* **Teoría:** Estructura organizada en **filas y columnas** (como una tabla). Requiere **dos índices** `[fila][columna]` para localizar un dato.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Matriz de 2 filas y 2 columnas
+    int matriz[2][2] = {
+        {5, 8},  // Fila 0
+        {4, 9}   // Fila 1
+    };
+
+    // Acceso directo indicando [Fila][Columna]
+    cout << "Fila 0, Columna 1: " << matriz[0][1] << endl; // Imprime 8
+    cout << "Fila 1, Columna 0: " << matriz[1][0] << endl; // Imprime 4
+
+    return 0;
+}
+```
+
+---
+
+### 3️⃣ Arreglo Multidimensional (Tridimensional)
+* **Teoría:** Estructuras de tres o más dimensiones. Una matriz 3D se puede ver como un **cubo de datos** o un conjunto de matrices apiladas. Requiere **tres índices** `[capa][fila][columna]`.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Arreglo 3D de tamaño 2x2x2 (2 Capas, 2 Filas, 2 Columnas)
+    int cubo[2][2][2] = {
+        { {1, 2}, {3, 4} }, // Capa 0
+        { {5, 6}, {7, 8} }  // Capa 1
+    };
+
+    // Acceso directo indicando [Capa][Fila][Columna]
+    cout << "Capa 0, Fila 1, Columna 0: " << cubo[0][1][0] << endl; // Imprime 3
+    cout << "Capa 1, Fila 0, Columna 1: " << cubo[1][0][1] << endl; // Imprime 6
+
+    return 0;
+}
+```
+
+---
+
+## 📊 Tablas de Resumen Visual
+
+### Parámetros
+| Tipo de Paso | ¿Qué recibe la función? | ¿Modifica el original? |
+| :--- | :--- | :---: |
+| **Por Valor** | Una copia del dato. | ❌ No |
+| **Por Referencia** | La variable real (`&`). | ✅ Sí |
+
+### Arreglos
+| Tipo | Índices | Estructura |
+| :--- | :---: | :--- |
+| **Unidimensional** | `[i]` | Una sola fila (Lista). |
+| **Bidimensional** | `[f][c]` | Una cuadrícula (Tabla de filas y columnas). |
+| **Multidimensional**| `[x][y][z]` | Un bloque volumétrico (Cubo u objetos apilados). |
+
