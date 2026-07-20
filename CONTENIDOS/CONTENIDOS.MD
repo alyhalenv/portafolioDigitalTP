@@ -9,7 +9,7 @@ Recopilar todas las actividades generadas en el transcurso y desarrollo del síl
 | :--- | :---: | :--- |
 | **PRIMERA UNIDAD** | 📖 Completada | [INGRESAR](./UNIDAD_ONE.md/) |
 | **SEGUNDA UNIDAD** | ⏳ Realizandose | [INGRESAR](./UNIDAD_TWO.md/) |
-| **TERCERA UNIDAD** | 🔒 Pendiente | [INGRESAR](./UNIDAD_THREE/) |
+| **TERCERA UNIDAD** | 🔒 Pendiente | [INGRESAR](./UNIDAD_THREE.md/) |
 
 ---
 
