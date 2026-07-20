@@ -55,3 +55,55 @@ int main() {
 
     return 0;
 }
+
+```cpp
+
+# Estructuras de Datos: Arreglos (Arrays)
+
+## 1. ¿Qué es un Arreglo?
+
+En el ámbito de la ciencia de la computación, un **arreglo** (también conocido como *array*, vector o matriz) es una estructura de datos homogénea y estática. 
+
+* **Homogénea:** Significa que todos los elementos almacenados dentro del arreglo deben ser estrictamente del mismo tipo de datos (por ejemplo, solo enteros, solo flotantes o solo caracteres).
+* **Estática:** Su tamaño en memoria se define al momento de su creación y no puede cambiar durante la ejecución del programa.
+* **Indexación:** Cada elemento ocupa una posición consecutiva en la memoria y se accede a él mediante un **índice** (el cual, en la mayoría de lenguajes, inicia siempre en `0`).
+
+---
+
+## 2. Tipos de Arreglos
+
+Los arreglos se clasifican principalmente según el número de dimensiones (índices) que requieren para localizar un dato:
+
+### A. Arreglos Unidimensionales (Vectores)
+Tienen una sola dimensión. Se pueden imaginar como una sola fila o una lista simple de elementos. Solo necesitan **un índice** para acceder a cualquier dato.
+
+### B. Arreglos Bidimensionales (Matrices)
+Tienen dos dimensiones. Se estructuran en forma de tabla con **filas y columnas**. Para acceder a un elemento, se requieren **dos índices**: el primero especifica la fila y el segundo la columna.
+
+*(Nota: Existen arreglos multidimensionales de 3 o más dimensiones, pero los unidimensionales y bidimensionales son los pilares fundamentales de la programación).*
+
+---
+
+## 3. Ejemplos Prácticos en C++
+
+A continuación, se presentan dos ejemplos aislados y sumamente sencillos para entender cómo declarar, llenar y leer cada tipo de arreglo.
+
+### Ejemplo 1: Arreglo Unidimensional (Vector)
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Declaración e inicialización de un vector de tamaño 3
+    int calificaciones[3] = {85, 90, 95};
+
+    cout << "=== ARREGLO UNIDIMENSIONAL ===" << endl;
+
+    // Recorremos el arreglo con un solo ciclo 'for'
+    for (int i = 0; i < 3; i++) {
+        cout << "Estudiante " << i << " - Calificacion: " << calificaciones[i] << endl;
+    }
+
+    return 0;
+}
