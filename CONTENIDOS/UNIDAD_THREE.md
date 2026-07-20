@@ -212,3 +212,10 @@ Por otra parte, el estudio de los arreglos permite comprender las limitaciones f
 | Los cambios dentro de una función no se guardan en `main()`. | El parámetro se envió **por valor** (copia local). | Añadir el operador `&` en la función para usar **referencia**. |
 | El programa muestra datos basura o se cierra inesperadamente. | El ciclo `for` intenta leer un índice que no existe. | Asegurar que la condición del ciclo sea menor estricto (`i < tamaño`). |
 | Datos desalineados en matrices. | Inversión accidental en el orden de los índices. | Mantener el estándar estricto de acceso: `[fila][columna]`. |
+
+<div align="center">
+
+[⬅️ VOLVER A CONTENIDOS](./CONTENIDOS.MD)
+
+</div>
+
