@@ -15,36 +15,28 @@ La **modularidad** consiste en dividir un problema grande en partes más pequeñ
 
 ```cpp
 
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
-// Función por Valor: Trabaja con una copia
-void cambiarPorValor(int x) {
-    x = 99; // Solo modifica la copia local
+void valor(int x){
+    x = 20;
 }
 
-// Función por Referencia: Trabaja con el dato original
-void cambiarPorReferencia(int &x) {
-    x = 99; // Modifica la variable externa real
+void referencia(int *x){
+    *x = 20;
 }
 
-int main() {
+int main(){
+
     int numero = 10;
 
-    cout << "=== PRUEBA DE PARÁMETROS ===" << endl;
-    cout << "Valor inicial de la variable: " << numero << endl;
+    valor(numero);
+    printf("%d\n", numero);
 
-    // 1. Ejecución Paso por Valor
-    cambiarPorValor(numero);
-    cout << "Resultado por Valor: " << numero << " (No cambio)" << endl; 
-
-    // 2. Ejecución Paso por Referencia
-    cambiarPorReferencia(numero);
-    cout << "Resultado por Referencia: " << numero << " (Si cambio)" << endl; 
+    referencia(&numero);
+    printf("%d\n", numero);
 
     return 0;
 }
-
 ```
 # 🚀 Guía Fundamental de Programación: Modularidad y Arreglos
 
@@ -60,17 +52,20 @@ La **modularidad** es el principio de diseño que consiste en dividir un program
 * **Teoría:** La función recibe una **copia** del dato. La variable original fuera de la función no sufre ningún cambio.
 
 ```cpp
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
-void funcionValor(int x) {
-    x = 20; // Solo cambia la copia dentro de la función
+void valor(int x){
+    x = 20;
 }
 
-int main() {
+int main(){
+
     int numero = 10;
-    funcionValor(numero);
-    cout << "Paso por Valor: " << numero << endl; // Imprime 10 (No cambió)
+
+    valor(numero);
+
+    printf("%d\n", numero);
+
     return 0;
 }
 ```
@@ -81,17 +76,20 @@ int main() {
 * **Teoría:** La función recibe la **dirección real** de la variable usando el símbolo `&`. Cualquier cambio dentro de la función modifica la variable original.
 
 ```cpp
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
-void funcionReferencia(int &x) {
-    x = 20; // Modifica la variable original externa
+void referencia(int *x){
+    *x = 20;
 }
 
-int main() {
+int main(){
+
     int numero = 10;
-    funcionReferencia(numero);
-    cout << "Paso por Referencia: " << numero << endl; // Imprime 20 (Sí cambió)
+
+    referencia(&numero);
+
+    printf("%d\n", numero);
+
     return 0;
 }
 ```
@@ -107,16 +105,14 @@ Un **arreglo** es una colección de datos del **mismo tipo** (homogénea) y de t
 * **Teoría:** Es una lista simple de una sola dimensión. Solo requiere **un índice** `[i]` para acceder al dato.
 
 ```cpp
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
-int main() {
-    // Un vector con 3 elementos
-    int vector[3] = {10, 20, 30};
+int main(){
 
-    // Acceso directo por índice
-    cout << "Indice 0: " << vector[0] << endl; // Imprime 10
-    cout << "Indice 2: " << vector[2] << endl; // Imprime 30
+    int vector[3] = {5, 10, 15};
+
+    printf("%d\n", vector[0]);
+    printf("%d\n", vector[2]);
 
     return 0;
 }
@@ -128,19 +124,17 @@ int main() {
 * **Teoría:** Estructura organizada en **filas y columnas** (como una tabla). Requiere **dos índices** `[fila][columna]` para localizar un dato.
 
 ```cpp
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
-int main() {
-    // Matriz de 2 filas y 2 columnas
+int main(){
+
     int matriz[2][2] = {
-        {5, 8},  // Fila 0
-        {4, 9}   // Fila 1
+        {1, 2},
+        {3, 4}
     };
 
-    // Acceso directo indicando [Fila][Columna]
-    cout << "Fila 0, Columna 1: " << matriz[0][1] << endl; // Imprime 8
-    cout << "Fila 1, Columna 0: " << matriz[1][0] << endl; // Imprime 4
+    printf("%d\n", matriz[0][1]);
+    printf("%d\n", matriz[1][0]);
 
     return 0;
 }
@@ -152,19 +146,23 @@ int main() {
 * **Teoría:** Estructuras de tres o más dimensiones. Una matriz 3D se puede ver como un **cubo de datos** o un conjunto de matrices apiladas. Requiere **tres índices** `[capa][fila][columna]`.
 
 ```cpp
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
-int main() {
-    // Arreglo 3D de tamaño 2x2x2 (2 Capas, 2 Filas, 2 Columnas)
+int main(){
+
     int cubo[2][2][2] = {
-        { {1, 2}, {3, 4} }, // Capa 0
-        { {5, 6}, {7, 8} }  // Capa 1
+        {
+            {1, 2},
+            {3, 4}
+        },
+        {
+            {5, 6},
+            {7, 8}
+        }
     };
 
-    // Acceso directo indicando [Capa][Fila][Columna]
-    cout << "Capa 0, Fila 1, Columna 0: " << cubo[0][1][0] << endl; // Imprime 3
-    cout << "Capa 1, Fila 0, Columna 1: " << cubo[1][0][1] << endl; // Imprime 6
+    printf("%d\n", cubo[0][1][0]);
+    printf("%d\n", cubo[1][0][1]);
 
     return 0;
 }
