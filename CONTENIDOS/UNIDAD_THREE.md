@@ -212,7 +212,7 @@ Por otra parte, el estudio de los arreglos permite comprender las limitaciones f
 
 ## 📊 Matriz de Diagnóstico Rápido
 
-| Error Común | Causa Técnica | Solución Práctica |
+| Errores Generales Cometidos | Causa Técnica | Solución Práctica |
 | :--- | :--- | :--- |
 | Los cambios dentro de una función no se guardan en `main()`. | El parámetro se envió **por valor** (copia local). | Añadir el operador `&` en la función para usar **referencia**. |
 | El programa muestra datos basura o se cierra inesperadamente. | El ciclo `for` intenta leer un índice que no existe. | Asegurar que la condición del ciclo sea menor estricto (`i < tamaño`). |
