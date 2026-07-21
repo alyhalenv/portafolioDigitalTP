@@ -1,44 +1,4 @@
-# 🚀 Guía Práctica de Programación: Modularidad y Estructuras de Arreglos
 
-Este repositorio contiene una explicación académica, clara y totalmente estructurada de los conceptos fundamentales de **Modularidad** y **Arreglos**, acompañados de sus respectivos ejemplos prácticos individuales en C++.
-
----
-
-## 📌 PARTE 1: Modularidad y Transmisión de Parámetros
-
-La **modularidad** consiste en dividir un problema grande en partes más pequeñas y autónomas llamadas **módulos** (o funciones). Para comunicarse, las funciones intercambian datos a través de **parámetros** usando dos métodos fundamentales:
-
-* **Paso por Valor:** La función recibe una **copia** del dato original. Cualquier cambio hecho dentro de la función **no afecta** a la variable externa.
-* **Paso por Referencia:** La función recibe la **dirección de memoria** real del dato (usando el símbolo `&`). Cualquier cambio hecho dentro de la función **sí afecta** a la variable externa.
-
-### 💻 Código 1: Demostración de Parámetros
-
-```cpp
-
-#include <stdio.h>
-
-void valor(int x){
-    x = 20;
-}
-
-void referencia(int *x){
-    *x = 20;
-}
-
-int main(){
-
-    int numero = 10;
-
-    valor(numero);
-    printf("%d\n", numero);
-
-    referencia(&numero);
-    printf("%d\n", numero);
-
-    return 0;
-}
-```
-<img width="741" height="76" alt="image" src="https://github.com/user-attachments/assets/e0c867f8-02de-4a33-9f16-dde3bef37d4e" />
 
 # 🚀 Guía Fundamental de Programación: Modularidad y Arreglos
 
