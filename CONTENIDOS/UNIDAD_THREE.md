@@ -38,6 +38,8 @@ int main(){
     return 0;
 }
 ```
+<img width="741" height="76" alt="image" src="https://github.com/user-attachments/assets/e0c867f8-02de-4a33-9f16-dde3bef37d4e" />
+
 # 🚀 Guía Fundamental de Programación: Modularidad y Arreglos
 
 Este repositorio contiene una explicación académica y simplificada de la **Modularidad** y los **Arreglos**. Los ejemplos de código en C++ se han reducido a su estructura más básica posible para facilitar la comprensión directa de la teoría.
@@ -69,6 +71,7 @@ int main(){
     return 0;
 }
 ```
+<img width="738" height="63" alt="image" src="https://github.com/user-attachments/assets/2c311960-275c-4bbe-b65a-0baa05a7fca7" />
 
 ---
 
@@ -93,6 +96,7 @@ int main(){
     return 0;
 }
 ```
+<img width="736" height="62" alt="image" src="https://github.com/user-attachments/assets/b4dbca34-fa67-4666-bdc4-30cdde02c4b3" />
 
 ---
 ---
@@ -117,6 +121,7 @@ int main(){
     return 0;
 }
 ```
+<img width="738" height="82" alt="image" src="https://github.com/user-attachments/assets/e7b3ad8d-934a-4b46-8d09-c1db59cd4d4b" />
 
 ---
 
@@ -139,6 +144,7 @@ int main(){
     return 0;
 }
 ```
+<img width="743" height="70" alt="image" src="https://github.com/user-attachments/assets/a25754a7-fafd-413e-bbd3-38145d0db66c" />
 
 ---
 
@@ -167,6 +173,7 @@ int main(){
     return 0;
 }
 ```
+<img width="740" height="65" alt="image" src="https://github.com/user-attachments/assets/2b516f0a-0148-499f-9c6a-936bc560dd0e" />
 
 ---
 
@@ -190,9 +197,9 @@ int main(){
 La transición hacia la programación modular y el manejo de arreglos estáticos presenta retos conceptuales específicos durante su aplicación práctica.
 
 ### 1. Dificultades Técnicas Identificadas
-* **Confusión en la Transmisión de Parámetros:** Existe una tendencia común a evitar el uso del operador de referencia (`&`) por temor a modificar accidentalmente los datos originales, lo que deriva en un uso ineficiente de copias en memoria (paso por valor).
-* **El Desfase del Índice Cero (*Off-by-One Error*):** Olvidar que los arreglos inician estrictamente en el índice `0` genera errores frecuentes de desbordamiento de memoria (*segmentation fault*) al intentar acceder a la posición equivalente al tamaño total del arreglo.
-* **Complejidad Multidimensional:** La coordinación de múltiples ciclos `for` anidados para recorrer arreglos bidimensionales y tridimensionales representa una alta carga cognitiva de abstracción espacial.
+* **Confusión en la Transmisión de Parámetros:** Durante del desarollo de la activida existiio una tendencia común a evitar el uso del operador de referencia (`&`) por temor a modificar accidentalmente los datos originales, lo que deriva en un uso ineficiente de copias en memoria (paso por valor).
+* **El Desfase del Índice Cero (*Off-by-One Error*):** Otro de ello fue el olvidar que los arreglos inician estrictamente en el índice `0` genera errores frecuentes de desbordamiento de memoria (*segmentation fault*) al intentar acceder a la posición equivalente al tamaño total del arreglo.
+* **Complejidad Multidimensional:** Y finalmente la coordinación de múltiples ciclos `for` anidados para recorrer arreglos bidimensionales y tridimensionales me representó una alta dificultad en durante el uso, pues existia una confusión incial en como lograr que cumpla esta función todos los espacios de la matriz o espacio.
 
 ### 2. Reflexión Crítica sobre el Aprendizaje
 
